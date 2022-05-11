@@ -22,7 +22,7 @@ title:
 
 
 section1:
-  title: Key concepts
+  title: Hackathon Themes
   subtitle: What you'll learn
   content_items: # keep 3 items for optimal alignment
     - title: E-commerce
@@ -38,7 +38,7 @@ section1:
 
 
 section2:
-  title: The topics
+  title: Potential topics
   subtitle: The hackathon will be about these
   content_items: # keep 3 (or 6 or 9) items for optimal alignment
     - title: Thing
@@ -71,25 +71,29 @@ section2:
 
 
 section3:
-  title: Timeline
+  title: Agenda
   subtitle: What happens when
   content_items:
-    - title: Time 1
+    - title: Day 1
       subtitle: Event
       description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
       image: about/1.jpg
-    - title: Time 2
+    - title: Day 2
       subtitle: Event
       description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
       image: about/2.jpg
-    - title: Time 3
+    - title: Day 3
       subtitle: Event
       description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
       image: about/3.jpg
-    - title: Time 4
+    - title: Day 4
       subtitle: Event
       description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
       image: about/4.jpg
+    - title: Day 5
+      subtitle: Event
+      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      image: about/1.jpg
   timeline_conclusion_text: "Be parrt <br/> of our <br/> story!" # needs a little fiddling with line breaks
 
 
