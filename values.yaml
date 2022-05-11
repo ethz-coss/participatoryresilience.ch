@@ -14,7 +14,7 @@ page: # general (meta-) information used mostly in the html header
   
 
 title:
-  heading: CoCi Hackathon 2022
+  heading: CoCi Block course Hackathon 2022
   subheading: Welcome to a new experience!
   # Note the subheading is actually displayed above
   button_text: Learn more!
