@@ -5,6 +5,7 @@
 ##########
 
 
+
 page: # general (meta-) information used mostly in the html header
   html_title: CoCi Hackathon
   html_author: COSS@ETHZ
@@ -21,15 +22,8 @@ title:
   image: header-bg.jpg
 
 
-section1:
-  title: About
-  subtitle: What you'll learn
-  content_items: # keep 3 items for optimal alignment
-    - title:
-      description: This is a Block Course for ETH students that is organized as a hackathon. It will allow students to showcase their innovative spirit through different projects. The fast-paced structure of the course produces an atmosphere of creativity and collaboration as makers work in teams of up to five to create their product. Teams would be provided with easy-to-use technology (RaspeberryPi, Arduino, etc.), tools, materials, co-working space and mentorship to turn their ideas into reality.
-      fa_icon: shopping-cart
 
-section2:
+section1:
   title: Challenges
   subtitle: What you'll learn
   content_items: # keep 3 items for optimal alignment
@@ -45,7 +39,7 @@ section2:
 
 
 
-section3:
+section2:
   title: Potential topics
   subtitle: The hackathon will be about these
   content_items: # keep 3 (or 6 or 9) items for optimal alignment
@@ -78,7 +72,7 @@ section3:
 
 
 
-section4:
+section3:
   title: Agenda
   subtitle: What happens when
   content_items:
@@ -105,7 +99,7 @@ section4:
   timeline_conclusion_text: "Be parrt <br/> of our <br/> story!" # needs a little fiddling with line breaks
 
 
-section5:
+section4:
   title: Speakers
   subtitle: What you'll learn
   content_items:
@@ -130,7 +124,7 @@ section5:
   description: These people are very important, let everyone know that!
 
 
-section6:
+section5:
 
 
 
