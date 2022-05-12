@@ -28,7 +28,7 @@ section1:
   subtitle: What you'll learn
   content_items: # keep 3 items for optimal alignment
     - title: working with IoT
-      description: using raspberry pie
+      description: using raspberry pie; electrical engineers wanted
       fa_icon: shopping-cart
     - title: integrating hardware and software
       description: showing the output of the sensor in a nice way to users
@@ -43,7 +43,7 @@ section2:
   title: Potential topics
   subtitle: The hackathon will be about these
   content_items: # keep 3 (or 6 or 9) items for optimal alignment
-    - title: hardware
+    - title: hardware I
       subtitle: Improving the CAD model of the sensor
       description: We have developed a basic CAD model for the sensor. How can it be made more user friendly? For which purposes will the sensor be used? Should it stand alone (indoor), be easily attached to a bike (outdoor), or even we worn?
       # description is shown as a popup upon click on the image
@@ -59,16 +59,12 @@ section2:
       image: portfolio/4.jpg
     - title: Integration
       subtitle: integrate the tool with existing platforms
-      description: The tool is most usefull if it is
+      description: The tool is most usefull if it is integrated in existing open source platform. Like open street map for example. Which open access platforms can you think about? Which ones do you think would be usefull?
       image: portfolio/5.jpg
-    - title: Thing
-      subtitle: It's cool, trust me
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: Hardware II
+      subtitle: add functionalities to the sensor
+      description: We produced a prototype of the sensor but you might have ideas about additional functionalities. Which one would you like to see?
       image: portfolio/6.jpg
-    - title: Thing
-      subtitle: It's cool, trust me
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      image: portfolio/2.jpg
 
 
 
@@ -77,46 +73,38 @@ section3:
   subtitle: What happens when
   content_items:
     - title: Day 1
-      subtitle: Event
+      subtitle: Welcome
       description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
       image: about/1.jpg
     - title: Day 2
-      subtitle: Event
+      subtitle: Team formation
       description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
       image: about/2.jpg
     - title: Day 3
-      subtitle: Event
+      subtitle: Implementation
       description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
       image: about/3.jpg
-    - title: Day 4
-      subtitle: Event
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      image: about/4.jpg
-    - title: Day 5
-      subtitle: Event
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      image: about/1.jpg
   timeline_conclusion_text: "Be parrt <br/> of our <br/> story!" # needs a little fiddling with line breaks
 
 
 section4:
-  title: Speakers
+  title: Speakers/instructors
   subtitle: What you'll learn
   content_items:
-    - name: John Smith
-      role: Doing stuff
+    - name: Sachit Mahajan
+      role: IoT expert
       image: team/1.jpg
       twitter:
       facebook:
       linkedin:
-    - name: John Smith
-      role: Doing stuff
+    - name: Evangelos Pournaras (?)
+      role: speaker
       image: team/2.jpg
       twitter:
       facebook:
       linkedin:
-    - name: John Smith
-      role: Doing stuff
+    - name: Junling, Remy, Fabian, Carina, Josh
+      role: Helping with sensors
       image: team/3.jpg
       twitter:
       facebook:
