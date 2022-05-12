@@ -24,17 +24,17 @@ title:
 
 
 section1:
-  title: Challenges
+  title: Challenges related to air quality
   subtitle: What you'll learn
   content_items: # keep 3 items for optimal alignment
-    - title: E-commerce
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: working with IoT
+      description: using raspberry pie
       fa_icon: shopping-cart
-    - title: Responsive design
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: integrating hardware and software
+      description: showing the output of the sensor in a nice way to users
       fa_icon: laptop
-    - title: Security
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: integrate other open source solutions
+      description: your results could be integrated with open street map for exampe
       fa_icon: lock
 
 
@@ -43,23 +43,23 @@ section2:
   title: Potential topics
   subtitle: The hackathon will be about these
   content_items: # keep 3 (or 6 or 9) items for optimal alignment
-    - title: Thing
-      subtitle: It's cool, trust me
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: hardware
+      subtitle: Improving the CAD model of the sensor
+      description: We have developed a basic CAD model for the sensor. How can it be made more user friendly? For which purposes will the sensor be used? Should it stand alone (indoor), be easily attached to a bike (outdoor), or even we worn?
       # description is shown as a popup upon click on the image
       image: portfolio/1.jpg
       # Note: image paths implicitly have: ./assets/img, so the above becomes ./assets/img/portfolio/1.jpg    
-    - title: Thing
-      subtitle: It's cool, trust me
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: data representation
+      subtitle: Showing relevant data to the user
+      description: You should work on the user interface. Which data does the user want to see? How can it be shown in a user-friendly way? Which representation leads to behavior change?
       image: portfolio/3.jpg
-    - title: Thing
-      subtitle: It's cool, trust me
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: Data Analytics
+      subtitle: Extract information via data science methods
+      description: You should run appropriate data science models to clean the data
       image: portfolio/4.jpg
-    - title: Thing
-      subtitle: It's cool, trust me
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: Integration
+      subtitle: integrate the tool with existing platforms
+      description: The tool is most usefull if it is
       image: portfolio/5.jpg
     - title: Thing
       subtitle: It's cool, trust me
