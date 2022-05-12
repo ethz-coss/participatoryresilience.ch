@@ -25,6 +25,9 @@
 <!-- FORMS NEEDED? -->
 
 <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -550,14 +553,9 @@
             <h2 class="section-heading text-uppercase">Contact Us</h2>
             <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
-        <!-- * * * * * * * * * * * * * * *-->
-        <!-- * * SB Forms Contact Form * *-->
-        <!-- * * * * * * * * * * * * * * *-->
-        <!-- This form is pre-integrated with SB Forms.-->
-        <!-- To make this form functional, sign up at-->
-        <!-- https://startbootstrap.com/solution/contact-forms-->
-        <!-- to get an API token!-->
-        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        
+        
+        <form id="contactForm" onsubmit="return save_to_db();">
             <div class="row align-items-stretch mb-5">
                 <div class="col-md-6">
                     <div class="form-group">
@@ -585,28 +583,65 @@
                     </div>
                 </div>
             </div>
-            <!-- Submit success message-->
-            <!---->
-            <!-- This is what your users will see when the form-->
-            <!-- has successfully submitted-->
+
             <div class="d-none" id="submitSuccessMessage">
                 <div class="text-center text-white mb-3">
                     <div class="fw-bolder">Form submission successful!</div>
-                    To activate this form, sign up at
-                    <br />
-                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                 </div>
             </div>
-            <!-- Submit error message-->
-            <!---->
-            <!-- This is what your users will see when there is-->
-            <!-- an error submitting the form-->
+
             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-            <!-- Submit Button-->
-            <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+
+            <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button></div>
         </form>
     </div>
 </section>
+
+
+<script>
+    function display_submit_status(success){
+        if (success){
+            console.info("Success");
+            $("#submitErrorMessage").addClass("d-none");
+            $("#submitSuccessMessage").removeClass("d-none");
+        } else {
+            console.info("Not success");
+            $("#submitErrorMessage").removeClass("d-none");
+        }
+        console.info("WTF");
+
+    }
+
+    function save_to_db() {
+        fetch("php/get_participants.php", {
+            method: "POST",
+            // Adding body or contents to send
+            body: JSON.stringify({
+                title: "foo",
+                body: "bar",
+                userId: 1
+            }),
+            // Adding headers to the request
+            headers: {
+                "Content-type": "application/json; charset=UTF-8"
+            }
+        }).then(
+            response => response.json()
+        ).then(data => {
+            console.info(data);
+            display_submit_status(true);
+            }
+        ).catch(err => {
+            console.log(err);
+            display_submit_status(false);
+            // $("#submitErrorMessage").removeClass("d-none");
+        
+        })
+            return false; // signals the html not to reload
+    }
+
+
+</script>
         
         <footer class="footer py-4">
     <div class="container">
