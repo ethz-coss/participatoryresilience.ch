@@ -2,7 +2,8 @@
 <section class="page-section" id="contact">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
+            <script src="js/count-up.min.js"></script>
+            <h2 class="section-heading text-uppercase">Sign up and join <span id="countup"></span> participants!</h2>
             <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
         
@@ -12,25 +13,25 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <!-- Name input-->
-                        <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                        <input class="form-control" name="name" id="name" type="text" placeholder="Your Name *" required />
                         <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                     </div>
                     <div class="form-group">
                         <!-- Email address input-->
-                        <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                        <input class="form-control" name="email" id="email" type="email" placeholder="Your Email *" data-sb-validations="email" required />
                         <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                         <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                     </div>
                     <div class="form-group mb-md-0">
                         <!-- Phone number input-->
-                        <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                        <input class="form-control" name="phone" id="phone" type="tel" placeholder="Your Phone *" required />
                         <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group form-group-textarea mb-md-0">
                         <!-- Message input-->
-                        <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                        <textarea class="form-control" name="message" id="message" placeholder="Your Message *" required ></textarea>
                         <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                     </div>
                 </div>
@@ -42,7 +43,7 @@
                 </div>
             </div>
 
-            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Please try again. If the issue persists contact remoll@ethz.ch</div></div>
 
             <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button></div>
         </form>
@@ -50,43 +51,83 @@
 </section>
 
 
+
 <script>
     function display_submit_status(success){
         if (success){
-            console.info("Success on form submission");
+            // console.info("Success on form submission");
             $("#submitErrorMessage").addClass("d-none");
             $("#submitSuccessMessage").removeClass("d-none");
         } else {
-            console.info("Error on form submission");
+            // console.info("Error on form submission");
             $("#submitErrorMessage").removeClass("d-none");
         }
     }
 
     function save_to_db() {
-        fetch("php/get_participants.php", {
+        var form_data = $('form').serializeArray();
+        // remap to key-value array
+        var application_data = {};
+        $.map(form_data, function (n, i) { if (n['value'] != "") application_data[n['name']] = n['value']; });
+
+        fetch("php/add_participant.php", {
             method: "POST",
-            // Adding body or contents to send
-            body: JSON.stringify({
-                title: "foo",
-                body: "bar",
-                userId: 1
-            }),
-            // Adding headers to the request
-            headers: {
-                "Content-type": "application/json; charset=UTF-8"
-            }
+            body: JSON.stringify(application_data),
+            headers: {"Content-type": "application/json; charset=UTF-8"}
         }).then(
             response => response.json()
         ).then(data => {
             console.info(data);
-            display_submit_status(true);
+            if (data["status"] != "success"){
+                throw "PHP could not save submission to db."
             }
-        ).catch(err => {
+            display_submit_status(true);
+
+        }).catch(err => {
             console.log(err);
             display_submit_status(false);        
         })
-            return false; // signals the html not to reload
+
+        return false; // signals the html not to reload
+    }
+</script>
+
+<script>
+    var cu = new counterUp({
+        // duration in milliseconds
+        duration: 3000,       
+        // string to prepend to the value
+        prepend: '',        
+        // string to apend to the value
+        append: '',        
+        // selector used to find elements on wich applycountUp
+        selector: '#countup',   
+        // default start
+        start: 0,         
+        // default end
+        end: 250,         
+        // should we display integer values only
+        intvalues: true,     
+        // default counting interval
+        interval: 1   
+            
+    });
+
+
+    function is_in_view_port(elem){
+        var documentViewTop = $(window).scrollTop();
+        var documentViewBottom = documentViewTop + $(window).height();
+
+        var elementTop = $(elem).offset().top;
+        var elementBottom = elementTop + $(elem).height();
+
+        return ((elementBottom <= documentViewBottom) && (elementTop >= documentViewTop));
     }
 
+    $(window).scroll(function(){
+    if (is_in_view_port($('#countup'))){
+        cu.start();
+        }
+    })
 
 </script>
