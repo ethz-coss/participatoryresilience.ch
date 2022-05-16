@@ -59,7 +59,7 @@ section2:
       image: portfolio/4.jpg
     - title: Integration
       subtitle: integrate the tool with existing platforms
-      description: The tool is most usefull if it is integrated in existing open source platform. Like open street map for example. Which open access platforms can you think about? Which ones do you think would be usefull?
+      description: The tool is most useful if it is integrated in existing open source platform. Like open street map for example. Which open access platforms can you think about? Which ones do you think would be usefull?
       image: portfolio/5.jpg
     - title: Hardware II
       subtitle: add functionalities to the sensor
