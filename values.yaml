@@ -28,7 +28,7 @@ section1:
   subtitle: What you'll learn
   content_items: # keep 3 items for optimal alignment
     - title: working with IoT
-      description: using raspberry pie; electrical engineers wanted
+      description: using raspberry pi; electrical engineers wanted
       fa_icon: shopping-cart
     - title: integrating hardware and software
       description: showing the output of the sensor in a nice way to users
