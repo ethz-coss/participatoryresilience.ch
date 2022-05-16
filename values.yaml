@@ -45,9 +45,7 @@ section2:
   content_items: # keep 3 (or 6 or 9) items for optimal alignment
     - title: Enclosure for IoT device
       subtitle: Improving the CAD model of the enclosure for the IoT device
-      description: 3D printing has revolutionized the way people create products for personal and commercial use. It is now much easier for businesses and individuals to turn their ideas into reality without having to spend a lot of money. You can design 3D printing products yourself using 3D model or Cad software and send them to your 3D printer for printing. We have developed a basic CAD model for the enclosure of IoT device. How can it be made more user friendly? How can the design be made more modular to allow so that it can be used for indoor and outdoor environmental monitoring.
-      :// Problem Statement
-      :// Resources
+      description: 3D printing has revolutionized the way people create products for personal and commercial use. It is now much easier for businesses and individuals to turn their ideas into reality without having to spend a lot of money. You can design 3D printing products yourself using 3D model or Cad software and send them to your 3D printer for printing. We have developed a basic CAD model for the enclosure of IoT device. How can it be made more user friendly? How can the design be made more modular to allow so that it can be used for indoor and outdoor environmental monitoring. :// Problem Statement :// Resources
       # description is shown as a popup upon click on the image
       image: portfolio/1.jpg
       # Note: image paths implicitly have: ./assets/img, so the above becomes ./assets/img/portfolio/1.jpg    
