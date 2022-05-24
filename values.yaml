@@ -40,33 +40,28 @@ section1:
 
 
 section2:
-  title: Potential topics
+  title: Topics
   subtitle: The hackathon will be about these
-  content_items: # keep 3 (or 6 or 9) items for optimal alignment
-    - title: Enclosure for IoT device
-      subtitle: Improving the CAD model of the enclosure for the IoT device
+  content_items:
+    - title: Sensor Design
+      subtitle: Designing a sensor for environmental monitoring
       image: portfolio/3.jpg
-      description: >
-        3D printing has revolutionized the way people create products for personal and commercial use. It is now much easier for businesses and individuals to turn their ideas into reality without having to spend a lot of money. You can design 3D printing products yourself using 3D model or Cad software and send them to your 3D printer for printing. 
-        We have developed a basic CAD model for the enclosure of IoT device. How can it be made more user friendly? How can the design be made more modular to allow so that it can be used for indoor and outdoor environmental monitoring.
-        # description is shown as a popup upon click on the image
-        image: portfolio/1.jpg
-      # Note: image paths implicitly have: ./assets/img, so the above becomes ./assets/img/portfolio/1.jpg    
+      description: The current prototype has a modular design and several functionalities ranging from particulate matter measurement to light intensity measurement. The goal of this task would be to improve the usability of the sensing device by either improving the current hardware configuration or adding new functionalities.
+    - title: CAD Model
+      subtitle: CAD model for enclosure design
+      description: 3D printing has revolutionized the way people create products for personal and commercial use. It is now much easier for businesses and individuals to turn their ideas into reality without having to spend a lot of money. You can design 3D printing products yourself using 3D model or Cad software and send them to your 3D printer for printing. We have developed a basic CAD model for the enclosure of IoT device. How can it be made more user friendly? How can the design be made more modular to allow so that it can be used for indoor and outdoor environmental monitoring.
+      image: portfolio/3.jpg
     - title: Data Representation
-      subtitle: Showing relevant data to the user
-      description: You should work on the user interface. Which data does the user want to see? How can it be shown in a user-friendly way? Which representation leads to behavior change?
-      image: portfolio/3.jpg
-    - title: Data Analytics
-      subtitle: Extract information via data science methods
-      description: Data Science techniques have changed the way we handle sensor data. Several data science tools are available that can be used to "make sense" of heterogeneous and unstructured sensor data. There are several data science tools available to help "make sense" of heterogeneous and unstructured sensor data. We created the exploreR (RShiny-based) application, which allows users to analyze their data without any programming knowledge. The goal is to either improve the application's functionality or create a new user-friendly application that allows for easy analysis of sensor data.
+      subtitle: Data visualization is critical in "making sense of data."
+      description: The goal is to provide a quick and efficient method of communicating data, identifying trends, and flagging data inconsistencies. The current version of the IoT device displays color coded data on the LED screen to provide users with visual feedback. The goal of this task would be to improve the user interface. The teams could focus on issues such as. Which data does the user want to see? How can it be presented in a user-friendly manner on the device as well as on the data visualization platform? Which representation results in behavior change?
       image: portfolio/4.jpg
-    - title: Integration
-      subtitle: integrate the tool with existing platforms
-      description: The tool is most useful if it is integrated in existing open source platform. Like open street map for example. Which open access platforms can you think about? Which ones do you think would be usefull?
+    - title: Data Analytics
+      subtitle: Data Science techniques have changed the way we handle sensor data.
+      description: Several data science tools and packages are available that can be used to get insights from heterogeneous and unstructured sensor data. These tools can be used to create open-source cross-platform applications that enable both novices and experts to visualize, interpret, and statistically analyze their data in meaningful ways. We created the exploreR (RShiny-based) application, which allows users to analyze their data without any programming knowledge. The goal is to either improve the application's functionality or create a new user-friendly application that allows for easy analysis of sensor data.
       image: portfolio/5.jpg
-    - title: Hardware II
-      subtitle: add functionalities to the sensor
-      description: We produced a prototype of the sensor but you might have ideas about additional functionalities. Which one would you like to see?
+    - title: Data Integration
+      subtitle: Integrating into an existing open-source platform
+      description: The tool is most useful if it is integrated into an existing open-source platform. Like open street map, for example. Which open access platforms can you think about? Which ones do you think would be useful?
       image: portfolio/6.jpg
 
 
@@ -77,15 +72,26 @@ section3:
   content_items:
     - title: Day 1
       subtitle: Welcome
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      description: 9:00–10:00 intro |
+                   10:00–10:30 talk |
+                   13:30–14:30 IoT |
+                   14:30–15–30 explore facility
       image: about/1.jpg
     - title: Day 2
       subtitle: Team formation
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      description: open street map, market place, ideation phase, CAD, research, vaiva, andrea
       image: about/2.jpg
     - title: Day 3
       subtitle: Implementation
       description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      image: about/3.jpg
+    - title: Day 4
+      subtitle: Implementation 2
+      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      image: about/3.jpg
+    - title: Day 5
+      subtitle: Demo
+      description: Present your results
       image: about/3.jpg
   timeline_conclusion_text: "Be parrt <br/> of our <br/> story!" # needs a little fiddling with line breaks
 
