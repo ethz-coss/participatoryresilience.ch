@@ -5,8 +5,9 @@
 ##########
 
 
+
 page: # general (meta-) information used mostly in the html header
-  html_title: CoCi Hackathon
+  html_title: participatory resilience
   html_author: COSS@ETHZ
   html_description: Hackathon, Renewable, computational
   # sarch terms that are good for SEO
@@ -14,103 +15,99 @@ page: # general (meta-) information used mostly in the html header
   
 
 title:
-  heading: CoCi Hackathon 2022
+  heading: Participatory Resilience Hackathon 2022
   subheading: Welcome to a new experience!
   # Note the subheading is actually displayed above
   button_text: Learn more!
   image: header-bg.jpg
 
 
+
 section1:
-  title: Key concepts
+  title: Challenges related to air quality
   subtitle: What you'll learn
   content_items: # keep 3 items for optimal alignment
-    - title: E-commerce
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: working with IoT
+      description: using raspberry pi; electrical engineers wanted
       fa_icon: shopping-cart
-    - title: Responsive design
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: integrating hardware and software
+      description: showing the output of the sensor in a nice way to users
       fa_icon: laptop
-    - title: Security
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: integrate other open source solutions
+      description: your results could be integrated with open street map for exampe
       fa_icon: lock
 
 
 
 section2:
-  title: The topics
+  title: Potential topics
   subtitle: The hackathon will be about these
   content_items: # keep 3 (or 6 or 9) items for optimal alignment
-    - title: Thing
-      subtitle: It's cool, trust me
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      # description is shown as a popup upon click on the image
-      image: portfolio/1.jpg
-      # Note: image paths implicitly have: ./assets/img, so the above becomes ./assets/img/portfolio/1.jpg    
-    - title: Thing
-      subtitle: It's cool, trust me
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: Enclosure for IoT device
+      subtitle: Improving the CAD model of the enclosure for the IoT device
       image: portfolio/3.jpg
-    - title: Thing
-      subtitle: It's cool, trust me
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      description: >
+        3D printing has revolutionized the way people create products for personal and commercial use. It is now much easier for businesses and individuals to turn their ideas into reality without having to spend a lot of money. You can design 3D printing products yourself using 3D model or Cad software and send them to your 3D printer for printing. 
+        We have developed a basic CAD model for the enclosure of IoT device. How can it be made more user friendly? How can the design be made more modular to allow so that it can be used for indoor and outdoor environmental monitoring.
+        # description is shown as a popup upon click on the image
+        image: portfolio/1.jpg
+      # Note: image paths implicitly have: ./assets/img, so the above becomes ./assets/img/portfolio/1.jpg    
+    - title: Data Representation
+      subtitle: Showing relevant data to the user
+      description: You should work on the user interface. Which data does the user want to see? How can it be shown in a user-friendly way? Which representation leads to behavior change?
+      image: portfolio/3.jpg
+    - title: Data Analytics
+      subtitle: Extract information via data science methods
+      description: Data Science techniques have changed the way we handle sensor data. Several data science tools are available that can be used to "make sense" of heterogeneous and unstructured sensor data. There are several data science tools available to help "make sense" of heterogeneous and unstructured sensor data. We created the exploreR (RShiny-based) application, which allows users to analyze their data without any programming knowledge. The goal is to either improve the application's functionality or create a new user-friendly application that allows for easy analysis of sensor data.
       image: portfolio/4.jpg
-    - title: Thing
-      subtitle: It's cool, trust me
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: Integration
+      subtitle: integrate the tool with existing platforms
+      description: The tool is most useful if it is integrated in existing open source platform. Like open street map for example. Which open access platforms can you think about? Which ones do you think would be usefull?
       image: portfolio/5.jpg
-    - title: Thing
-      subtitle: It's cool, trust me
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - title: Hardware II
+      subtitle: add functionalities to the sensor
+      description: We produced a prototype of the sensor but you might have ideas about additional functionalities. Which one would you like to see?
       image: portfolio/6.jpg
-    - title: Thing
-      subtitle: It's cool, trust me
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      image: portfolio/2.jpg
 
 
 
 section3:
-  title: Timeline
+  title: Agenda
   subtitle: What happens when
   content_items:
-    - title: Time 1
-      subtitle: Event
+    - title: Day 1
+      subtitle: Welcome
       description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
       image: about/1.jpg
-    - title: Time 2
-      subtitle: Event
+    - title: Day 2
+      subtitle: Team formation
       description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
       image: about/2.jpg
-    - title: Time 3
-      subtitle: Event
+    - title: Day 3
+      subtitle: Implementation
       description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
       image: about/3.jpg
-    - title: Time 4
-      subtitle: Event
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      image: about/4.jpg
   timeline_conclusion_text: "Be parrt <br/> of our <br/> story!" # needs a little fiddling with line breaks
 
 
 section4:
-  title: Speakers
+  title: Speakers/instructors
   subtitle: What you'll learn
   content_items:
-    - name: John Smith
-      role: Doing stuff
+    - name: Sachit Mahajan
+      role: IoT expert
       image: team/1.jpg
       twitter:
       facebook:
       linkedin:
-    - name: John Smith
-      role: Doing stuff
+    - name: Evangelos Pournaras (?)
+      role: speaker
       image: team/2.jpg
       twitter:
       facebook:
       linkedin:
-    - name: John Smith
-      role: Doing stuff
+    - name: Junling, Remy, Fabian, Carina, Josh
+      role: Helping with sensors
       image: team/3.jpg
       twitter:
       facebook:
@@ -123,3 +120,10 @@ section5:
 
 
 application:
+
+
+
+footer: 
+  image_attributions:
+    - name: "'Climate' icon by monkik"
+      source: https://thenounproject.com/icon/climate-2731699/
