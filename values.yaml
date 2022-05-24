@@ -72,10 +72,19 @@ section3:
   content_items:
     - title: Day 1
       subtitle: Welcome
-      description: 9:00–10:00 intro |
-                   10:00–10:30 talk |
-                   13:30–14:30 IoT |
-                   14:30–15–30 explore facility
+      content_items:
+        - name: intro
+          start: 9:00
+          end: 10:00
+        - name: talk
+          start: 10:00
+          end: 10:30
+        - name: IoT
+          start: 13:30
+          end: 14:30
+        - name: explore facility
+          start: 14:30
+          end: 15:30
       image: about/1.jpg
     - title: Day 2
       subtitle: Team formation
