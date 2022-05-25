@@ -9,39 +9,39 @@
 page: # general (meta-) information used mostly in the html header
   html_title: participatory resilience
   html_author: COSS@ETHZ
-  html_description: Hackathon, Renewable, computational
-  # sarch terms that are good for SEO
+  html_description: hackathon, renewable, computational
+  # search terms that are good for SEO
   logo: navbar-logo.svg
   
 
 title:
-  heading: Participatory Resilience Hackathon 2022
-  subheading: Welcome to a new experience!
-  # Note the subheading is actually displayed above
+  heading: Participatory Resilience
+  subheading: Empowering People with Social IoT
   button_text: Learn more!
   image: header-bg.jpg
 
 
-
+# @Remy: Could you find suitable icons?
 section1:
-  title: Challenges related to air quality
-  subtitle: What you'll learn
-  content_items: # keep 3 items for optimal alignment
-    - title: working with IoT
-      description: using raspberry pi; electrical engineers wanted
+  title: Highlights
+  subtitle: What is in for you?
+  content_items:
+    - title: Open-source innovation
+      description: code to improve society
       fa_icon: shopping-cart
-    - title: integrating hardware and software
-      description: showing the output of the sensor in a nice way to users
+    - title: Earn 6 ECTS in 5 days
+      description: 40 Semesterwochenstunden
       fa_icon: laptop
-    - title: integrate other open source solutions
-      description: your results could be integrated with open street map for exampe
+    - title: Enjoy great a great venue and good food
+      description: Venue is located in Zurich
       fa_icon: lock
 
 
-
+# @Remy align text to the left; remove categories "client" and "category", add missing pictures
+# @sachit adds picture for sensor and CAD
 section2:
-  title: Topics
-  subtitle: The hackathon will be about these
+  title: Challenges
+  subtitle: You will work on the following topics
   content_items:
     - title: Sensor Design
       subtitle: Designing a sensor for environmental monitoring
@@ -65,7 +65,7 @@ section2:
       image: portfolio/6.jpg
 
 
-
+# @Remy please correct displayed time
 section3:
   title: Agenda
   subtitle: What happens when
@@ -73,71 +73,134 @@ section3:
     - title: Day 1
       subtitle: Welcome
       content_items:
-        - name: intro
+        - name: introduction
           start: 9:00
-          end: 10:00
-        - name: talk
-          start: 10:00
+          end: 9:30
+        - name: expert talk
+          start: 9:30
           end: 10:30
-        - name: IoT
+        - name: IoT workshop
           start: 13:30
           end: 14:30
         - name: explore facility
           start: 14:30
           end: 15:30
+        - name: gadget activity
+          start: 16:00
+          end: 17:00
       image: about/1.jpg
     - title: Day 2
       subtitle: Team formation
-      description: open street map, market place, ideation phase, CAD, research, vaiva, andrea
+      content_items:
+        - name: expert talk
+          start: 9:00
+          end: 10:00
+        - name: open data workshop
+          start: 10:30
+          end: 11:00
+        - name: ideation phase
+          start: 11:00
+          end: 12:00
+        - name: data science workshop
+          start: 13:30
+          end: 14:30
+        - name: research and find team
+          start: 14:30
+          end: 15:30
+        - name: HPC workshop
+          start: 16:00
+          end: 17:00
       image: about/2.jpg
     - title: Day 3
       subtitle: Implementation
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      content_items:
+        - name: workshop app interface
+          start: 9:00
+          end: 10:00
+        - name: develop project
+          start: 10:00
+          end: 17:00
       image: about/3.jpg
     - title: Day 4
       subtitle: Implementation 2
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      content_items:
+        - name: expert talk
+          start: 9:00
+          end: 10:00
+        - name: develop project
+          start: 10:00
+          end: 17:00
       image: about/3.jpg
     - title: Day 5
       subtitle: Demo
-      description: Present your results
+      content_items:
+        - name: expert talk
+          start: 9:00
+          end: 10:00
+        - name: finalize project
+          start: 10:00
+          end: 11:30
+        - name: prepare demo
+          start: 11:30
+          end: 13:30
+        - name: demo
+          start: 14:30
+          end: 15:30
+        - name: winner ceremony
+          start: 16:00
+          end: 17:00
       image: about/3.jpg
-  timeline_conclusion_text: "Be parrt <br/> of our <br/> story!" # needs a little fiddling with line breaks
+  timeline_conclusion_text: "Be part <br/> of our <br/> story!" # needs a little fiddling with line breaks
 
 
 section4:
-  title: Speakers/instructors
-  subtitle: What you'll learn
+  title: Experts
+  subtitle: Who will be there?
   content_items:
-    - name: Sachit Mahajan
-      role: IoT expert
+    - name: expert I
+      role: expertise I
       image: team/1.jpg
       twitter:
       facebook:
       linkedin:
-    - name: Evangelos Pournaras (?)
-      role: speaker
+    - name: expert II
+      role: expertise I
       image: team/2.jpg
       twitter:
       facebook:
       linkedin:
-    - name: Junling, Remy, Fabian, Carina, Josh
-      role: Helping with sensors
+    - name: expert III
+      role: expertise IIII
       image: team/3.jpg
       twitter:
       facebook:
       linkedin:
-  description: These people are very important, let everyone know that!
+    - name: expert IV
+      role: expertise IV
+      image: team/3.jpg
+      twitter:
+      facebook:
+      linkedin:
+    - name: expert V
+      role: expertise V
+      image: team/3.jpg
+      twitter:
+      facebook:
+      linkedin:
+  description: These people will be there at the hackathon!
 
-
+#does not appear yet
 section5:
-
+  title: Resources
+  subtitle: Links to related work
+#@Sachit github link
+#@Remy: link to this paper: https://www.mdpi.com/1429762; probably you can display the title?
 
 
 application:
 
-
-
+#@remy please remove the sponsor items for now
+#@remy instead of signing up: "any ideas, resources required, feedback? Let us know!"
 footer: 
   image_attributions:
     - name: "'Climate' icon by monkik"
