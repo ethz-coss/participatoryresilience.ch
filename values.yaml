@@ -13,7 +13,7 @@ page: # general (meta-) information used mostly in the html header
   # search terms that are good for SEO
   logo: navbar-logo.svg
   
-
+#@remy: find a way to add a longer description (found in \section{Description}, overleaf/hackathon.tex)
 title:
   heading: Participatory Resilience
   subheading: Empowering People with Social IoT
