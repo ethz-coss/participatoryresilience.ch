@@ -45,7 +45,7 @@ section2:
   content_items:
     - title: Sensor Design
       subtitle: Designing a sensor for environmental monitoring
-      image: portfolio/3.jpg
+      image: iot.jpg
       description: The current prototype has a modular design and several functionalities ranging from particulate matter measurement to light intensity measurement. The goal of this task would be to improve the usability of the sensing device by either improving the current hardware configuration or adding new functionalities.
     - title: CAD Model
       subtitle: CAD model for enclosure design
