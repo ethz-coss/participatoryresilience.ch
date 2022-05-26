@@ -192,10 +192,34 @@ section4:
 
 #does not appear yet
 section5:
-  title: Resources
-  subtitle: Links to related work
-#@Sachit github link
-#@Remy: link to this paper: https://www.mdpi.com/1429762; probably you can display the title?
+  title: Getting started
+  subtitle: Here are a few links to related work and helpful resources
+  content_items:
+    - title: Paper
+      description: "Getting Real: The Challenge of Building and Validating a Large-Scale Digital Twin of Barcelona’s Traffic with Empirical Data"
+      url: https://www.mdpi.com/1429762
+      fa_icon: newspaper
+    - title: Repository
+      description: Project XY
+      url: https://github.com/...
+      fa_icon: github
+    - title: Repository
+      description: Project XY
+      url: https://github.com/...
+      fa_icon: github
+    - title: Repository
+      description: Project XY
+      url: https://github.com/...
+      fa_icon: github
+    - title: Repository
+      description: Project XY
+      url: https://github.com/...
+      fa_icon: github
+    - title: Repository
+      description: Project XY
+      url: https://github.com/...
+      fa_icon: github
+    #@Sachit github links
 
 
 contactform:
@@ -203,10 +227,7 @@ contactform:
   subtitle: Will you need other material or resources or do you have suggestions. We'd love to hear them.
   background_image: contactform_background.png
 
-#@remy please remove the sponsor items for now
-#@remy instead of signing up: "any ideas, resources required, feedback? Let us know!"
-
-
+#@Sachit, Carina: VVZ and moodle urls for quick reference?
 footer:
   vvz_link: https://vvz.ethz.ch/...
   moodle_link: https://moodle.app2.let.ethz.ch/....
