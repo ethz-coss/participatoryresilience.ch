@@ -1,0 +1,131 @@
+<!-- Contact-->
+  
+  <section class="page-section" id="contact" style="background-image: url('assets/img/{{ contactform.background_image }}');padding: 0;">
+    <div id="form-backdrop">
+    <div class="container">
+        <div class="text-center">
+            <script src="js/count-up.min.js"></script>
+            <h2 class="section-heading text-uppercase">{{ contactform.title }}</h2>
+            <h3 class="section-subheading text-muted-inverted">{{ contactform.subtitle }}</h3>
+        </div>
+        
+        
+        <form id="contactForm" onsubmit="return save_to_db();">
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <div class="form-group mb-4">
+                        <!-- Name input-->
+                        <input class="form-control" name="name" id="name" type="text" placeholder="Your Name *" required />
+                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                    </div>
+                    <div class="form-group">
+                        <!-- Email address input-->
+                        <input class="form-control" name="email" id="email" type="email" placeholder="Your Email *" data-sb-validations="email" required />
+                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <div class="form-group form-group-textarea">
+                        <!-- Message input-->
+                        <textarea class="form-control" name="message" id="message" placeholder="Your Message *" required ></textarea>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center text-white mb-3">
+                    <div class="fw-bolder">Form submission successful!</div>
+                </div>
+            </div>
+
+            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Please try again. If the issue persists contact remoll@ethz.ch</div></div>
+
+            <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button></div>
+        </form>
+    </div>
+    </div>
+</section>
+
+
+
+<script>
+    function display_submit_status(success){
+        if (success){
+            // console.info("Success on form submission");
+            $("#submitErrorMessage").addClass("d-none");
+            $("#submitSuccessMessage").removeClass("d-none");
+        } else {
+            // console.info("Error on form submission");
+            $("#submitErrorMessage").removeClass("d-none");
+        }
+    }
+
+    function save_to_db() {
+        var form_data = $('form').serializeArray();
+        // remap to key-value array
+        var application_data = {};
+        $.map(form_data, function (n, i) { if (n['value'] != "") application_data[n['name']] = n['value']; });
+
+        fetch("php/add_participant.php", {
+            method: "POST",
+            body: JSON.stringify(application_data),
+            headers: {"Content-type": "application/json; charset=UTF-8"}
+        }).then(
+            response => response.json()
+        ).then(data => {
+            console.info(data);
+            if (data["status"] != "success"){
+                throw "PHP could not save submission to db."
+            }
+            display_submit_status(true);
+
+        }).catch(err => {
+            console.log(err);
+            display_submit_status(false);        
+        })
+
+        return false; // signals the html not to reload
+    }
+</script>
+
+<script>
+    var cu = new counterUp({
+        // duration in milliseconds
+        duration: 3000,       
+        // string to prepend to the value
+        prepend: '',        
+        // string to apend to the value
+        append: '',        
+        // selector used to find elements on wich applycountUp
+        selector: '#countup',   
+        // default start
+        start: 0,         
+        // default end
+        end: 250,         
+        // should we display integer values only
+        intvalues: true,     
+        // default counting interval
+        interval: 1   
+            
+    });
+
+
+    function is_in_view_port(elem){
+        var documentViewTop = $(window).scrollTop();
+        var documentViewBottom = documentViewTop + $(window).height();
+
+        var elementTop = $(elem).offset().top;
+        var elementBottom = elementTop + $(elem).height();
+
+        return ((elementBottom <= documentViewBottom) && (elementTop >= documentViewTop));
+    }
+
+    $(window).scroll(function(){
+    if (is_in_view_port($('#countup'))){
+        cu.start();
+        }
+    })
+
+</script>

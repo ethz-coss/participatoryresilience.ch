@@ -1,7 +1,27 @@
 <header class="masthead" style="background-image: url('assets/img/{{ title.image }}');">
   <div class="container">
-      <div class="masthead-subheading">{{ title.subheading }}</div>
-      <div class="masthead-heading text-uppercase">{{ title.heading }}</div>
-      <a class="btn btn-primary btn-xl text-uppercase" href="#section1">{{ title.button_text }}</a>
+    <div class="masthead-subheading">{{ title.subheading }}</div>
+    <div class="masthead-heading text-uppercase">{{ title.heading }}</div>
+    
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-sm-12 mb-4" id="title-item"> {# governs width of card #}
+
+        <div class="row justify-content-center mb-3 title-item-caption">
+          <div class="portfolio-caption-heading">{{ title.description.heading }}</div>
+        </div>
+
+        <div class="portfolio-main-content">
+          <div class="title-item-text">
+            <p><em>
+              {{ title.description.text }}
+            </em></p>
+          </div>
+        </div>
+          
+      </div>
+    </div>
+
+    <a class="btn btn-primary btn-xl text-uppercase" href="#section1">{{ title.button_text }}</a>
+
   </div>
 </header>

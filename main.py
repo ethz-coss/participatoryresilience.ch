@@ -16,6 +16,6 @@ template = env.get_template('main.html')
 page_context = yaml.safe_load(config_yaml.read_text())
 # print(page_context)
 
-filename = os.path.join(out_dir, 'index.php')
+filename = os.path.join(out_dir, 'index.html')
 with open(filename, 'w') as f:
     f.write(template.render(**page_context))

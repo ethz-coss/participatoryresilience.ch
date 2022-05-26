@@ -7,15 +7,27 @@
         </div>
 
         <ul class="timeline">
-            {% for i in section3.content_items %}
+            {% for item in section3.content_items %}
                 <li {% if loop.index % 2 == 0 %} class="timeline-inverted" {% endif %}>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/{{ i.image }}" alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/{{ item.image }}" alt="..." /></div>
                     <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>{{ i.title }}</h4>
-                            <h4 class="subheading">{{ i.subtitle }}</h4>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.title }} - {{ item.subtitle }}</h5>
+
+                                <ul class="list-group list-group-flush">
+                                    {% for subitem in item.content_items %}
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                {{ subitem.name }}
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">{{ subitem.start }} to {{ subitem.end }}</span>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
                         </div>
-                        <div class="timeline-body"><p class="text-muted">{{ i.description }}</p></div>
                     </div>
                 </li>
             {% endfor %}

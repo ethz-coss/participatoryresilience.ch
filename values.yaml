@@ -5,69 +5,65 @@
 ##########
 
 
-
 page: # general (meta-) information used mostly in the html header
   html_title: participatory resilience
   html_author: COSS@ETHZ
-  html_description: Hackathon, Renewable, computational
-  # sarch terms that are good for SEO
+  html_description: hackathon, renewable, computational
+  # search terms that are good for SEO
   logo: navbar-logo.svg
   
 
 title:
-  heading: Participatory Resilience Hackathon 2022
-  subheading: Welcome to a new experience!
-  # Note the subheading is actually displayed above
+  heading: Participatory Resilience
+  subheading: Empowering People with Social IoT
   button_text: Learn more!
-  image: header-bg.jpg
-
-
+  image: title/network_blue.jpg
+  description:
+    heading: What this hackathon does
+    text: |
+      This is a Block Course for ETH students that is organized as a hackathon. It will allow students to showcase their innovative spirit through different projects. The fast-paced structure of the course produces an atmosphere of creativity and collaboration as makers work in teams of up to five to create their product. Teams will be provided with easy-to-use technology (RaspeberryPi, Arduino, etc.), tools, materials, co-working space and mentorship to turn their ideas into reality.
 
 section1:
-  title: Challenges related to air quality
-  subtitle: What you'll learn
-  content_items: # keep 3 items for optimal alignment
-    - title: working with IoT
-      description: using raspberry pi; electrical engineers wanted
-      fa_icon: shopping-cart
-    - title: integrating hardware and software
-      description: showing the output of the sensor in a nice way to users
-      fa_icon: laptop
-    - title: integrate other open source solutions
-      description: your results could be integrated with open street map for exampe
-      fa_icon: lock
+  title: Highlights
+  subtitle: What is in for you?
+  content_items:
+    - title: Open-source innovation
+      description: code to improve society
+      fa_icon: code-branch
+    - title: Earn 6 ECTS in 5 days
+      description: 40 Semesterwochenstunden
+      fa_icon: graduation-cap
+    - title: Enjoy great a great venue and good food
+      description: Venue is located in Zurich
+      fa_icon: map-pin
 
 
-
+# @Remy align text to the left; add missing pictures
+# @sachit adds picture for sensor and CAD
 section2:
-  title: Potential topics
-  subtitle: The hackathon will be about these
-  content_items: # keep 3 (or 6 or 9) items for optimal alignment
-    - title: Enclosure for IoT device
-      subtitle: Improving the CAD model of the enclosure for the IoT device
-      image: portfolio/3.jpg
-      description: >
-        3D printing has revolutionized the way people create products for personal and commercial use. It is now much easier for businesses and individuals to turn their ideas into reality without having to spend a lot of money. You can design 3D printing products yourself using 3D model or Cad software and send them to your 3D printer for printing. 
-        We have developed a basic CAD model for the enclosure of IoT device. How can it be made more user friendly? How can the design be made more modular to allow so that it can be used for indoor and outdoor environmental monitoring.
-        # description is shown as a popup upon click on the image
-        image: portfolio/1.jpg
-      # Note: image paths implicitly have: ./assets/img, so the above becomes ./assets/img/portfolio/1.jpg    
+  title: Challenges
+  subtitle: You will work on the following topics
+  content_items:
+    - title: Sensor Design
+      subtitle: Designing a sensor for environmental monitoring
+      image: challenges/iot.jpeg
+      description: The current prototype has a modular design and several functionalities ranging from particulate matter measurement to light intensity measurement. The goal of this task would be to improve the usability of the sensing device by either improving the current hardware configuration or adding new functionalities.
+    - title: 3D modelling
+      subtitle: 3D modelling for enclosure design
+      description: 3D printing has revolutionized the way people create products for personal and commercial use. It is now much easier for businesses and individuals to turn their ideas into reality without having to spend a lot of money. You can design 3D printing products yourself using 3D model or Cad software and send them to your 3D printer for printing. We have developed a basic CAD model for the enclosure of IoT device. How can it be made more user friendly? How can the design be made more modular to allow so that it can be used for indoor and outdoor environmental monitoring.
+      image: challenges/3d.jpeg
     - title: Data Representation
-      subtitle: Showing relevant data to the user
-      description: You should work on the user interface. Which data does the user want to see? How can it be shown in a user-friendly way? Which representation leads to behavior change?
-      image: portfolio/3.jpg
+      subtitle: Data visualization is critical in "making sense of data."
+      description: The goal is to provide a quick and efficient method of communicating data, identifying trends, and flagging data inconsistencies. The current version of the IoT device displays color coded data on the LED screen to provide users with visual feedback. The goal of this task would be to improve the user interface. The teams could focus on issues such as. Which data does the user want to see? How can it be presented in a user-friendly manner on the device as well as on the data visualization platform? Which representation results in behavior change?
+      image: challenges/datarep.jpeg
     - title: Data Analytics
-      subtitle: Extract information via data science methods
-      description: Data Science techniques have changed the way we handle sensor data. Several data science tools are available that can be used to "make sense" of heterogeneous and unstructured sensor data. There are several data science tools available to help "make sense" of heterogeneous and unstructured sensor data. We created the exploreR (RShiny-based) application, which allows users to analyze their data without any programming knowledge. The goal is to either improve the application's functionality or create a new user-friendly application that allows for easy analysis of sensor data.
-      image: portfolio/4.jpg
-    - title: Integration
-      subtitle: integrate the tool with existing platforms
-      description: The tool is most useful if it is integrated in existing open source platform. Like open street map for example. Which open access platforms can you think about? Which ones do you think would be usefull?
-      image: portfolio/5.jpg
-    - title: Hardware II
-      subtitle: add functionalities to the sensor
-      description: We produced a prototype of the sensor but you might have ideas about additional functionalities. Which one would you like to see?
-      image: portfolio/6.jpg
+      subtitle: Data Science techniques have changed the way we handle sensor data.
+      description: Several data science tools and packages are available that can be used to get insights from heterogeneous and unstructured sensor data. These tools can be used to create open-source cross-platform applications that enable both novices and experts to visualize, interpret, and statistically analyze their data in meaningful ways. We created the exploreR (RShiny-based) application, which allows users to analyze their data without any programming knowledge. The goal is to either improve the application's functionality or create a new user-friendly application that allows for easy analysis of sensor data.
+      image: challenges/analytics.jpeg
+    - title: Data Integration
+      subtitle: Integrating into an existing open-source platform
+      description: The tool is most useful if it is integrated into an existing open-source platform. Like open street map, for example. Which open access platforms can you think about? Which ones do you think would be useful?
+      image: challenges/integration.jpeg
 
 
 
@@ -77,53 +73,166 @@ section3:
   content_items:
     - title: Day 1
       subtitle: Welcome
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      image: about/1.jpg
+      content_items:
+        - name: introduction
+          start: "9:00"
+          end: "9:30"
+        - name: expert talk
+          start: "9:30"
+          end: "10:30"
+        - name: IoT workshop
+          start: "13:30"
+          end: "14:30"
+        - name: explore facility
+          start: "14:30"
+          end: "15:30"
+        - name: gadget activity
+          start: "16:00"
+          end: "17:00"
+      image: timeline/welcome.jpg
     - title: Day 2
       subtitle: Team formation
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      image: about/2.jpg
+      content_items:
+        - name: expert talk
+          start: "9:00"
+          end: "10:00"
+        - name: open data workshop
+          start: "10:30"
+          end: "11:00"
+        - name: ideation phase
+          start: "11:00"
+          end: "12:00"
+        - name: data science workshop
+          start: "13:30"
+          end: "14:30"
+        - name: research and find team
+          start: "14:30"
+          end: "15:30"
+        - name: HPC workshop
+          start: "16:00"
+          end: "17:00"
+      image: timeline/teambuilding.jpg
     - title: Day 3
       subtitle: Implementation
-      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      image: about/3.jpg
-  timeline_conclusion_text: "Be parrt <br/> of our <br/> story!" # needs a little fiddling with line breaks
+      content_items:
+        - name: workshop app interface
+          start: "9:00"
+          end: "10:00"
+        - name: develop project
+          start: "10:00"
+          end: "17:00"
+      image: timeline/coding.jpg
+    - title: Day 4
+      subtitle: Implementation 2
+      content_items:
+        - name: expert talk
+          start: "9:00"
+          end: "10:00"
+        - name: develop project
+          start: "10:00"
+          end: "17:00"
+      image: timeline/coding.jpg
+    - title: Day 5
+      subtitle: Demo
+      content_items:
+        - name: expert talk
+          start: "9:00"
+          end: "10:00"
+        - name: finalize project
+          start: "10:00"
+          end: "11:30"
+        - name: prepare demo
+          start: "11:30"
+          end: "13:30"
+        - name: demo
+          start: "14:30"
+          end: "15:30"
+        - name: winner ceremony
+          start: "16:00"
+          end: "17:00"
+      image: timeline/presentation.jpg
+  timeline_conclusion_text: "Be part <br/> of social <br/> IoT!" # needs a little fiddling with line breaks
 
 
 section4:
-  title: Speakers/instructors
-  subtitle: What you'll learn
+  title: Our Experts
+  subtitle: They will provide insights and support for your project.
+  description: Don't miss the opportunity to get to know them after their keynotes!
   content_items:
-    - name: Sachit Mahajan
-      role: IoT expert
-      image: team/1.jpg
+    - name: expert I
+      role: expertise I
+      image: experts/1.jpg
       twitter:
       facebook:
       linkedin:
-    - name: Evangelos Pournaras (?)
-      role: speaker
-      image: team/2.jpg
+    - name: expert II
+      role: expertise II
+      image: experts/2.jpg
       twitter:
       facebook:
       linkedin:
-    - name: Junling, Remy, Fabian, Carina, Josh
-      role: Helping with sensors
-      image: team/3.jpg
+    - name: expert III
+      role: expertise III
+      image: experts/3.jpg
       twitter:
       facebook:
       linkedin:
-  description: These people are very important, let everyone know that!
+    - name: expert IV
+      role: expertise IV
+      image: experts/3.jpg
+      twitter:
+      facebook:
+      linkedin:
+    - name: expert V
+      role: expertise V
+      image: experts/3.jpg
+      twitter:
+      facebook:
+      linkedin:
 
-
+#does not appear yet
 section5:
+  title: Resources
+  subtitle: Links to related work
+#@Sachit github link
+#@Remy: link to this paper: https://www.mdpi.com/1429762; probably you can display the title?
 
 
+contactform:
+  title: Ideas? Feedback? Special requirements? Let us know!
+  subtitle: Will you need other material or resources or do you have suggestions. We'd love to hear them.
+  background_image: contactform_background.png
 
-application:
+#@remy please remove the sponsor items for now
+#@remy instead of signing up: "any ideas, resources required, feedback? Let us know!"
 
 
-
-footer: 
+footer:
+  vvz_link: https://vvz.ethz.ch/...
+  moodle_link: https://moodle.app2.let.ethz.ch/....
+  coss_link: https://coss.ethz.ch
   image_attributions:
     - name: "'Climate' icon by monkik"
-      source: https://thenounproject.com/icon/climate-2731699/
+      source_name: The Noun Project
+      source_domain: https://thenounproject.com/
+      source_url: https://thenounproject.com/icon/climate-2731699/
+    - name: Photo by Conny Schneider
+      source_name: Unsplash
+      source_domain: https://unsplash.com
+      source_url: https://unsplash.com/photos/xuTJZ7uD7PI
+    - name: Photo by Finn Hackshaw
+      source_name: Unsplash
+      source_domain: https://unsplash.com
+      source_url: https://unsplash.com/photos/FQgI8AD-BSg
+    - name: Photo by krakenimages
+      source_name: Unsplash
+      source_domain: https://unsplash.com
+      source_url: https://unsplash.com/photos/Y5bvRlcCx8k
+    - name: Photo by Florian Olivo
+      source_name: Unsplash
+      source_domain: https://unsplash.com
+      source_url: https://unsplash.com/photos/4hbJ-eymZ1o
+    - name: Photo by Austin Distel
+      source_name: Unsplash
+      source_domain: https://unsplash.com
+      source_url: https://unsplash.com/photos/wD1LRb9OeEo

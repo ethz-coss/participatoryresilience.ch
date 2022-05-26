@@ -9,7 +9,7 @@
                     {% for i in section2.content_items %}
                         <div class="col-lg-4 col-sm-6 mb-4">
                             <div class="portfolio-item">
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal{{ loop.index }}">
+                                <a class="portfolio-main-content" data-bs-toggle="modal" href="#portfolioModal{{ loop.index }}">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                     </div>
@@ -35,20 +35,10 @@
                                                     <h2 class="text-uppercase">{{ i.title }}</h2>
                                                     <p class="item-intro text-muted">{{ i.subtitle }}</p>
                                                     <img class="img-fluid d-block mx-auto" src="assets/img/{{ i.image }}" alt="..." />
-                                                    <p>{{ i.description }}</p>
-                                                    <ul class="list-inline">
-                                                        <li>
-                                                            <strong>Client:</strong>
-                                                            Threads
-                                                        </li>
-                                                        <li>
-                                                            <strong>Category:</strong>
-                                                            Illustration
-                                                        </li>
-                                                    </ul>
+                                                    <p class="text-start">{{ i.description }}</p>
                                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                                         <i class="fas fa-times me-1"></i>
-                                                        Close Project
+                                                        Close Challenge
                                                     </button>
                                                 </div>
                                             </div>
