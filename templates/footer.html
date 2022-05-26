@@ -3,9 +3,9 @@
         <div class="row align-items-center">
             <div class="col-lg-4 text-lg-start">Copyright &copy; {{ page.html_title }} <?php echo date("Y"); ?></div>
             <div class="col-lg-4 my-3 my-lg-0">
-                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="{{ footer.vvz_link }}"><img src="/assets/img/footer/eth_logo.png"></a>
+                <a class="btn btn-dark btn-social mx-2" href="{{ footer.moodle_link }}"><img src="/assets/img/footer/moodle_logo.png"></a>
+                <a class="btn btn-dark btn-social mx-2" href="{{ footer.coss_link }}"><img src="/assets/img/footer/dgess_logo.png"></a>
             </div>
             <div class="col-lg-4 text-lg-end">
                 <a class="btn btn-dark btn-social mx-2" href="https://creativecommons.org/licenses/by/3.0/us/legalcode"><i class="fab fa-creative-commons"></i></a>
@@ -20,7 +20,7 @@
                 <div class="card card-body">
                     <ul class="list-group list-group-flush">
                         {% for el in footer.image_attributions %}
-                            <li class="list-group-item"><a href="{{ el. source }}">{{ el.name }}</a> from <a href="https://thenounproject.com/">The Noun Project</a></li>
+                            <li class="list-group-item"><a href="{{ el.source_url }}">{{ el.name }}</a> from <a href="{{ el.source_domain }}">{{ el. source_name }}</a></li>
                         {% endfor %}
                     </ul>
                 </div>
