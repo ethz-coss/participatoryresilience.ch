@@ -68,7 +68,7 @@
         var application_data = {};
         $.map(form_data, function (n, i) { if (n['value'] != "") application_data[n['name']] = n['value']; });
 
-        fetch("php/add_participant.php", {
+        fetch("php/add_message.php", {
             method: "POST",
             body: JSON.stringify(application_data),
             headers: {"Content-type": "application/json; charset=UTF-8"}
