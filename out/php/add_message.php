@@ -9,8 +9,6 @@
     $json = file_get_contents('php://input');
     $data = json_decode($json, true);
     
-    echo json_encode($data);
-
     if (!array_key_exists("name", $data) || !array_key_exists("email", $data)) {
         die(json_encode(array("status" => "error - missing data entries")));
     }
@@ -23,7 +21,7 @@
     $conn = mysqli_connect($db_host, $db_uname, $db_password, $db_name);
     // Check connection
     if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
+        die(json_encode(array("error" => mysqli_connect_error())));
     }
     $sql = "INSERT INTO messages (name,email,message) VALUES ('$name','$email','$message')";
 
