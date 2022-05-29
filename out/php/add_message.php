@@ -17,6 +17,7 @@
 
     $name = $data["name"];
     $email = $data["email"];
+    $message = $data["message"];
 
 
     $conn = mysqli_connect($db_host, $db_uname, $db_password, $db_name);
@@ -24,7 +25,7 @@
     if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());
     }
-    $sql = "INSERT INTO registrations (name,email) VALUES ('$name','$email')";
+    $sql = "INSERT INTO messages (name,email,message) VALUES ('$name','$email','$message')";
 
     if (mysqli_query($conn, $sql)) {
         $stat = "success";
