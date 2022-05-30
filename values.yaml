@@ -22,8 +22,11 @@ title:
     heading: What this hackathon does
     text: |
       This is a Block Course for ETH students that is organized as a hackathon. It will allow students to showcase their innovative spirit through different projects. The fast-paced structure of the course produces an atmosphere of creativity and collaboration as makers work in teams of up to five to create their product. Teams will be provided with easy-to-use technology (RaspberryPi, Arduino, etc.), tools, materials, co-working space and mentorship to turn their ideas into reality.
-#@Remy can we have a countdown to 05.09.2022 (starting date)? Like here https://hackzurich.com
-#also can we remove the italics? Thanks!
+  countdown:
+    date: September 5, 2022 0:00:00 # parsed by javascript. Kepp this exact date format
+    text: Starts in
+    isover: Hackathon is over! Join us next time.
+
 
 section1:
   title: Highlights
@@ -40,7 +43,6 @@ section1:
       fa_icon: map-pin
 
 
-# @Remy align text to the left; add missing pictures
 # @sachit adds picture for sensor and CAD
 section2:
   title: Challenges
@@ -192,32 +194,24 @@ section4:
       facebook:
       linkedin:
 
-#Remy any ideas on how to best present this?
+
 section5:
-  title: FAQs
-  subtitle: Frequently asked questions
+  title: Frequently asked questions
+  subtitle: ""
   content_items:
-    - title: FAQs
-      subtitle: faqs
-      image: challenges/iot.jpeg
-      description:
-        Do I need to have any specific qualifications to be a participant for the Hackathon?
-        If you love to code, prototype hardware solutions, you are more than welcome to participate in the Hackathon.
+    - question: Do I need to have any specific qualifications to be a participant for the Hackathon?
+      answer: If you love to code, prototype hardware solutions, you are more than welcome to participate in the Hackathon.
+    - question: How do I submit what I have made for the Hackathon?
+      answer: You have to develop the application, software, hardware, etc. on your local system and submit it to https://github.com/ethz-coss along with instructions to run the application and source code.
+    - question: Do we need to have the entire idea fully working?
+      answer: The entire idea need not be fully implemented however, the submission should be functional (e.g. small scale) so that it can be reviewed by the lecturers.
+    - question: Will you provide hardware components, prototypes and DB for us to kick-off on ideas?
+      answer: Yes, we will provide standard hardware and more specific hardware on request. We provide sample code and db.
+    - question: Do I need to give a demo for the product that I have built?
+      answer: Yes, the demo is part of the requirements to earn the ECTS.
+    - question: Who will own the IP (Intellectual Property) Rights to the product that I have built?
+      answer: The developer/developers of the product will have all rights and own the IP of the product. However, all code needs to be in public domain (open source) so that it can be evaluated by the judges.
 
-        How do I submit what I have made for the Hackathon?
-        You have to develop the application, software, hardware, etc. on your local system and submit it on https://github.com/ethz-coss along with instructions to run the application and source code.
-
-        Do we need to have the entire idea fully working?
-        The entire idea need not be fully implemented however, the submission should be functional (e.g. small scale) so that it can be reviewed by the lecturers.
-
-        Will you provide hardware components, prototypes and DB for us to kick-off on ideas?
-        Yes, we will provide standard hardware and more specific hardware on request. We provide sample code and db.
-
-        Do I need to give a demo for the product that I have built?
-        Yes, the demo is part of the requirements to earn the ECTS.
-
-        Who will own the IP(Intellectual Property) Rights to the product that I have built?
-        The developer/developers of the product will have all rights and own the IP of the product. However, all code needs to be in public domain (open source) so that it can be evaluated by the judges.
 
 section6:
   title: Getting started
@@ -249,6 +243,7 @@ footer:
   vvz_link: https://vvz.ethz.ch/...
   moodle_link: https://moodle.app2.let.ethz.ch/....
   coss_link: https://coss.ethz.ch
+  
   image_attributions:
     - name: "'Climate' icon by monkik"
       source_name: The Noun Project
