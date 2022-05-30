@@ -35,7 +35,7 @@ section1:
     - title: Open-source innovation
       description: Build a more resilient tomorrow
       fa_icon: code-branch
-    - title: Earn 6 ECTS in 5 days
+    - title: Earn 3 ECTS in 5 days
       description: 40 Semesterwochenstunden
       fa_icon: graduation-cap
     - title: Networking
@@ -166,9 +166,7 @@ section4:
     - name: Dirk Helbing
       role: Professor for Computational Social Science
       image: experts/helbing.jpeg
-      twitter:
-      facebook:
-      linkedin:
+      twitter: https://twitter.com/DirkHelbing?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
     - name: expert II
       role: expertise II
       image: experts/2.jpg
@@ -181,19 +179,6 @@ section4:
       twitter:
       facebook:
       linkedin:
-    - name: expert IV
-      role: expertise IV
-      image: experts/3.jpg
-      twitter:
-      facebook:
-      linkedin:
-    - name: expert V
-      role: expertise V
-      image: experts/3.jpg
-      twitter:
-      facebook:
-      linkedin:
-
 
 section5:
   title: Frequently asked questions
