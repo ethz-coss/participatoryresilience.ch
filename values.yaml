@@ -223,7 +223,9 @@ contactform:
 
 
 
-#@Sachit, Carina: VVZ and moodle urls for quick reference?
+#VVZ and moodle urls for quick reference? C: not yet available
+#@Remy: Can you add erc and coci logos (I put them in folder assets)? We also need to add a full funding statement (below)
+# This course has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 833168, “CoCi: Co-Evolving City Life”.
 footer:
   vvz_link: https://vvz.ethz.ch/...
   moodle_link: https://moodle.app2.let.ethz.ch/....
