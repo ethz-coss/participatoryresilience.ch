@@ -43,7 +43,6 @@ section1:
       fa_icon: map-pin
 
 
-# @sachit adds picture for sensor and CAD
 section2:
   title: Challenges
   subtitle: You will work on the following topics
@@ -167,17 +166,16 @@ section4:
       role: Professor for Computational Social Science
       image: experts/helbing.jpeg
       twitter: https://twitter.com/DirkHelbing?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+      linkedin: https://ch.linkedin.com/in/dirk-helbing-58b291b1
     - name: expert II
       role: expertise II
       image: experts/2.jpg
       twitter:
-      facebook:
       linkedin:
     - name: expert III
       role: expertise III
       image: experts/3.jpg
       twitter:
-      facebook:
       linkedin:
 
 section5:
@@ -223,14 +221,15 @@ contactform:
 
 
 
-#VVZ and moodle urls for quick reference? C: not yet available
-#@Remy: Can you add erc and coci logos (I put them in folder assets)? We also need to add a full funding statement (below)
-# This course has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 833168, “CoCi: Co-Evolving City Life”.
+# TODO: Moodle Course Link
+
 footer:
   vvz_link: http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&lang=de&ansicht=EINSCHRAENKUNGEN&lerneinheitId=165358
-  moodle_link: https://moodle.app2.let.ethz.ch/....
+  moodle_link: https://moodle.app2.let.ethz.ch/
   coss_link: https://coss.ethz.ch
-  
+  coci_link: https://coss.ethz.ch/research/CoCi.html
+  erc_link: https://erc.europa.eu/
+  erc_text: "This course has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 833168, “CoCi: Co-Evolving City Life”."
   image_attributions:
     - name: "'Climate' icon by monkik"
       source_name: The Noun Project
