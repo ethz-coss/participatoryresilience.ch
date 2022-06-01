@@ -23,7 +23,7 @@ title:
     text: |
       This is a Block Course for ETH students that is organized as a hackathon. It will allow students to showcase their innovative spirit through different projects. The fast-paced structure of the course produces an atmosphere of creativity and collaboration as makers work in teams of up to five to create their product. Teams will be provided with easy-to-use technology (RaspberryPi, Arduino, etc.), tools, materials, co-working space and mentorship to turn their ideas into reality.
   countdown:
-    date: September 5, 2022 0:00:00 # parsed by javascript. Kepp this exact date format
+    date: September 5, 2022 0:00:00 # parsed by javascript. Keep this exact date format
     text: Starts in
     isover: Hackathon is over! Join us next time.
 
@@ -167,6 +167,7 @@ section4:
       image: experts/helbing.jpeg
       twitter: https://twitter.com/DirkHelbing?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
       linkedin: https://ch.linkedin.com/in/dirk-helbing-58b291b1
+    # TODO: Fill out or remove speakers
     - name: expert II
       role: expertise II
       image: experts/2.jpg
@@ -225,7 +226,7 @@ contactform:
 
 footer:
   vvz_link: http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&lang=de&ansicht=EINSCHRAENKUNGEN&lerneinheitId=165358
-  moodle_link: https://moodle.app2.let.ethz.ch/
+  moodle_link: https://moodle-app2.let.ethz.ch/
   coss_link: https://coss.ethz.ch
   coci_link: https://coss.ethz.ch/research/CoCi.html
   erc_link: https://erc.europa.eu/
