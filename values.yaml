@@ -15,31 +15,34 @@ page: # general (meta-) information used mostly in the html header
 
 title:
   heading: Participatory Resilience
-  subheading: Empowering People with Social IoT
+  subheading: Empower Society with Social IoT from 05. to 09.09.
   button_text: Learn more!
   image: title/network_blue.jpg
   description:
     heading: What this hackathon does
     text: |
       This is a Block Course for ETH students that is organized as a hackathon. It will allow students to showcase their innovative spirit through different projects. The fast-paced structure of the course produces an atmosphere of creativity and collaboration as makers work in teams of up to five to create their product. Teams will be provided with easy-to-use technology (RaspberryPi, Arduino, etc.), tools, materials, co-working space and mentorship to turn their ideas into reality.
+  countdown:
+    date: September 5, 2022 0:00:00 # parsed by javascript. Kepp this exact date format
+    text: Starts in
+    isover: Hackathon is over! Join us next time.
+
 
 section1:
   title: Highlights
   subtitle: What is in for you?
   content_items:
     - title: Open-source innovation
-      description: code to improve society
+      description: Build a more resilient tomorrow
       fa_icon: code-branch
-    - title: Earn 6 ECTS in 5 days
+    - title: Earn 3 ECTS in 5 days
       description: 40 Semesterwochenstunden
       fa_icon: graduation-cap
-    - title: Enjoy great a great venue and good food
-      description: Venue is located in Zurich
+    - title: Networking
+      description: Kick-off new ideas and projects
       fa_icon: map-pin
 
 
-# @Remy align text to the left; add missing pictures
-# @sachit adds picture for sensor and CAD
 section2:
   title: Challenges
   subtitle: You will work on the following topics
@@ -159,38 +162,41 @@ section4:
   subtitle: They will provide insights and support for your project.
   description: Don't miss the opportunity to get to know them after their keynotes!
   content_items:
-    - name: expert I
-      role: expertise I
-      image: experts/1.jpg
-      twitter:
-      facebook:
-      linkedin:
+    - name: Dirk Helbing
+      role: Professor for Computational Social Science
+      image: experts/helbing.jpeg
+      twitter: https://twitter.com/DirkHelbing?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+      linkedin: https://ch.linkedin.com/in/dirk-helbing-58b291b1
     - name: expert II
       role: expertise II
       image: experts/2.jpg
       twitter:
-      facebook:
       linkedin:
     - name: expert III
       role: expertise III
       image: experts/3.jpg
       twitter:
-      facebook:
-      linkedin:
-    - name: expert IV
-      role: expertise IV
-      image: experts/3.jpg
-      twitter:
-      facebook:
-      linkedin:
-    - name: expert V
-      role: expertise V
-      image: experts/3.jpg
-      twitter:
-      facebook:
       linkedin:
 
 section5:
+  title: Frequently asked questions
+  subtitle: ""
+  content_items:
+    - question: Do I need to have any specific qualifications to be a participant for the Hackathon?
+      answer: If you love to code, prototype hardware solutions, you are more than welcome to participate in the Hackathon.
+    - question: How do I submit what I have made for the Hackathon?
+      answer: You have to develop the application, software, hardware, etc. on your local system and submit it to https://github.com/ethz-coss along with instructions to run the application and source code.
+    - question: Do we need to have the entire idea fully working?
+      answer: The entire idea need not be fully implemented however, the submission should be functional (e.g. small scale) so that it can be reviewed by the lecturers.
+    - question: Will you provide hardware components, prototypes and DB for us to kick-off on ideas?
+      answer: Yes, we will provide standard hardware and more specific hardware on request. We provide sample code and db.
+    - question: Do I need to give a demo for the product that I have built?
+      answer: Yes, the demo is part of the requirements to earn the ECTS.
+    - question: Who will own the IP (Intellectual Property) Rights to the product that I have built?
+      answer: The developer/developers of the product will have all rights and own the IP of the product. However, all code needs to be in public domain (open source) so that it can be evaluated by the judges.
+
+
+section6:
   title: Getting started
   subtitle: Here are a few links to related work and helpful resources
   content_items:
@@ -198,41 +204,32 @@ section5:
       description: "Getting Real: The Challenge of Building and Validating a Large-Scale Digital Twin of Barcelona’s Traffic with Empirical Data"
       url: https://www.mdpi.com/1429762
       fa_icon: newspaper
+    - title: Paper
+      description: "Participatory resilience: Surviving, recovering and improving together"
+      url: https://www.sciencedirect.com/science/article/pii/S2210670722002633?via%3Dihub
+      fa_icon: newspaper
     - title: Repository
-      description: Project XY
-      url: https://github.com/...
+      description: Soc-IoT
+      url: https://github.com/sachit27/Soc-IoT
       fa_icon: github
-    - title: Repository
-      description: Project XY
-      url: https://github.com/...
-      fa_icon: github
-    - title: Repository
-      description: Project XY
-      url: https://github.com/...
-      fa_icon: github
-    - title: Repository
-      description: Project XY
-      url: https://github.com/...
-      fa_icon: github
-    - title: Repository
-      description: Project XY
-      url: https://github.com/...
-      fa_icon: github
-    #@Sachit github links
 
 
 contactform:
   title: Ideas? Feedback? Special requirements? Let us know!
-  subtitle: Will you need other material or resources or do you have suggestions. We'd love to hear them.
+  subtitle: Will you need other material or resources or do you have suggestions. We'd love to hear about them.
   background_image: contactform_background.png
 
 
 
-#@Sachit, Carina: VVZ and moodle urls for quick reference?
+# TODO: Moodle Course Link
+
 footer:
-  vvz_link: https://vvz.ethz.ch/...
-  moodle_link: https://moodle.app2.let.ethz.ch/....
+  vvz_link: http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&lang=de&ansicht=EINSCHRAENKUNGEN&lerneinheitId=165358
+  moodle_link: https://moodle.app2.let.ethz.ch/
   coss_link: https://coss.ethz.ch
+  coci_link: https://coss.ethz.ch/research/CoCi.html
+  erc_link: https://erc.europa.eu/
+  erc_text: "This course has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 833168, “CoCi: Co-Evolving City Life”."
   image_attributions:
     - name: "'Climate' icon by monkik"
       source_name: The Noun Project

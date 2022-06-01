@@ -3,3 +3,4 @@ out/index.html
 keys.php
 
 .idea/
+.DS_Store

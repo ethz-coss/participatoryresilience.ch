@@ -1,11 +1,13 @@
 <footer class="footer py-4">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center mb-3">
             <div class="col-lg-4 text-lg-start">Copyright &copy; {{ page.html_title }} <?php echo date("Y"); ?></div>
             <div class="col-lg-4 my-3 my-lg-0">
                 <a class="btn btn-dark btn-social mx-2" href="{{ footer.vvz_link }}"><img src="/assets/img/footer/eth_logo.png"></a>
                 <a class="btn btn-dark btn-social mx-2" href="{{ footer.moodle_link }}"><img src="/assets/img/footer/moodle_logo.png"></a>
                 <a class="btn btn-dark btn-social mx-2" href="{{ footer.coss_link }}"><img src="/assets/img/footer/dgess_logo.png"></a>
+                <a class="btn btn-dark btn-social mx-2" href="{{ footer.coci_link }}"><img src="/assets/img/footer/CoCi_logo.png"></a>
+                <a class="btn btn-dark btn-social mx-2" href="{{ footer.erc_link }}"><img src="/assets/img/footer/erc.png"></a>
             </div>
             <div class="col-lg-4 text-lg-end">
                 <a class="btn btn-dark btn-social mx-2" href="https://creativecommons.org/licenses/by/3.0/us/legalcode"><i class="fab fa-creative-commons"></i></a>
@@ -26,5 +28,8 @@
                 </div>
               </div>
         </div>
+    </div>
+    <div class="row align-items-center">
+        <p>{{ footer.erc_text }}</p>
     </div>
 </footer>
