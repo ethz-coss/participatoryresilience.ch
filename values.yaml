@@ -23,7 +23,7 @@ title:
     text: |
       This is a Block Course for ETH students that is organized as a hackathon. It will allow students to showcase their innovative spirit through different projects. The fast-paced structure of the course produces an atmosphere of creativity and collaboration as makers work in teams of up to five to create their product. Teams will be provided with easy-to-use technology (RaspberryPi, Arduino, etc.), tools, materials, co-working space and mentorship to turn their ideas into reality.
   countdown:
-    date: September 5, 2022 0:00:00 # parsed by javascript. Kepp this exact date format
+    date: September 5, 2022 0:00:00 # parsed by javascript. Keep this exact date format
     text: Starts in
     isover: Hackathon is over! Join us next time.
 
@@ -80,7 +80,7 @@ section3:
         - name: introduction
           start: "9:00"
           end: "9:30"
-        - name: expert talk
+        - name: Rosy Mondardini
           start: "9:30"
           end: "10:30"
         - name: IoT workshop
@@ -96,7 +96,7 @@ section3:
     - title: Day 2
       subtitle: Team formation
       content_items:
-        - name: expert talk
+        - name: Thomas Maillart
           start: "9:00"
           end: "10:00"
         - name: open data workshop
@@ -105,7 +105,7 @@ section3:
         - name: ideation phase
           start: "11:00"
           end: "12:00"
-        - name: data science workshop
+        - name: blockchain workshop
           start: "13:30"
           end: "14:30"
         - name: research and find team
@@ -118,7 +118,7 @@ section3:
     - title: Day 3
       subtitle: Implementation
       content_items:
-        - name: workshop app interface
+        - name: Evangelos Pournaras
           start: "9:00"
           end: "10:00"
         - name: develop project
@@ -128,11 +128,11 @@ section3:
     - title: Day 4
       subtitle: Implementation 2
       content_items:
-        - name: expert talk
+        - name: Christoph Laib
           start: "9:00"
-          end: "10:00"
+          end: "9:30"
         - name: develop project
-          start: "10:00"
+          start: "9:30"
           end: "17:00"
       image: timeline/coding.jpg
     - title: Day 5
@@ -165,18 +165,27 @@ section4:
     - name: Dirk Helbing
       role: Professor for Computational Social Science
       image: experts/helbing.jpeg
-      twitter: https://twitter.com/DirkHelbing?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+      twitter: https://twitter.com/DirkHelbing
       linkedin: https://ch.linkedin.com/in/dirk-helbing-58b291b1
-    - name: expert II
-      role: expertise II
-      image: experts/2.jpg
-      twitter:
-      linkedin:
-    - name: expert III
-      role: expertise III
-      image: experts/3.jpg
-      twitter:
-      linkedin:
+    - name: Rosy Mondardini
+      role: Citizen Science Center
+      image: experts/rosy.jpg
+      twitter: https://twitter.com/rosymond
+      linkedin: https://www.linkedin.com/in/rosy-mondardini/
+    - name: Thomas Maillart
+      role: University of Geneva
+      image: experts/thomas.jpg
+      linkedin: https://www.linkedin.com/in/thomasmaillart/
+    - name: Evangelos Pournaras
+      role: University of Leeds
+      image: experts/evangelos.jpg
+      twitter: https://twitter.com/EPournaras
+      linkedin: https://www.linkedin.com/in/epournaras/
+    - name: Christoph Laib
+      role: Creative Hub
+      image: experts/Christoph.png
+      twitter: https://mobile.twitter.com/claib
+      linkedin: https://www.linkedin.com/in/christoph-laib-57444a/
 
 section5:
   title: Frequently asked questions
@@ -225,7 +234,7 @@ contactform:
 
 footer:
   vvz_link: http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&lang=de&ansicht=EINSCHRAENKUNGEN&lerneinheitId=165358
-  moodle_link: https://moodle.app2.let.ethz.ch/
+  moodle_link: https://moodle-app2.let.ethz.ch
   coss_link: https://coss.ethz.ch
   coci_link: https://coss.ethz.ch/research/CoCi.html
   erc_link: https://erc.europa.eu/
