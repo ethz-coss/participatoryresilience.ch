@@ -165,7 +165,7 @@ section4:
     - name: Dirk Helbing
       role: Professor for Computational Social Science
       image: experts/helbing.jpeg
-      twitter: https://twitter.com/DirkHelbing?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+      twitter: https://twitter.com/DirkHelbing
       linkedin: https://ch.linkedin.com/in/dirk-helbing-58b291b1
     - name: Rosy Mondardini
       role: Citizen Science Center
@@ -175,17 +175,17 @@ section4:
     - name: Thomas Maillart
       role: University of Geneva
       image: experts/thomas.jpg
-      linkedin: https://www.linkedin.com/in/thomasmaillart/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=ch
+      linkedin: https://www.linkedin.com/in/thomasmaillart/
     - name: Evangelos Pournaras
       role: University of Leeds
-      image: experts/Evangelos.jpg
-      twitter: https://twitter.com/EPournaras?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
-      linkedin: https://www.linkedin.com/in/epournaras/?originalSubdomain=uk
+      image: experts/evangelos.jpg
+      twitter: https://twitter.com/EPournaras
+      linkedin: https://www.linkedin.com/in/epournaras/
     - name: Christoph Laib
       role: Creative Hub
-      image: experts/Christoph.jpg
+      image: experts/Christoph.png
       twitter: https://mobile.twitter.com/claib
-      linkedin: https://www.linkedin.com/in/christoph-laib-57444a/?originalSubdomain=ch
+      linkedin: https://www.linkedin.com/in/christoph-laib-57444a/
 
 section5:
   title: Frequently asked questions
@@ -234,7 +234,7 @@ contactform:
 
 footer:
   vvz_link: http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&lang=de&ansicht=EINSCHRAENKUNGEN&lerneinheitId=165358
-  moodle_link: https://moodle-app2.let.ethz.ch/
+  moodle_link: https://moodle-app2.let.ethz.ch
   coss_link: https://coss.ethz.ch
   coci_link: https://coss.ethz.ch/research/CoCi.html
   erc_link: https://erc.europa.eu/
