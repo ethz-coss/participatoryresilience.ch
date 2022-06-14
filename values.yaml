@@ -80,7 +80,7 @@ section3:
         - name: introduction
           start: "9:00"
           end: "9:30"
-        - name: expert talk
+        - name: Rosy Mondardini
           start: "9:30"
           end: "10:30"
         - name: IoT workshop
@@ -96,7 +96,7 @@ section3:
     - title: Day 2
       subtitle: Team formation
       content_items:
-        - name: expert talk
+        - name: Thomas Maillart
           start: "9:00"
           end: "10:00"
         - name: open data workshop
@@ -118,7 +118,7 @@ section3:
     - title: Day 3
       subtitle: Implementation
       content_items:
-        - name: workshop app interface
+        - name: Evangelos Pournaras
           start: "9:00"
           end: "10:00"
         - name: develop project
@@ -128,11 +128,11 @@ section3:
     - title: Day 4
       subtitle: Implementation 2
       content_items:
-        - name: expert talk
+        - name: Christoph Laib
           start: "9:00"
-          end: "10:00"
+          end: "9:30"
         - name: develop project
-          start: "10:00"
+          start: "9:30"
           end: "17:00"
       image: timeline/coding.jpg
     - title: Day 5
@@ -167,17 +167,25 @@ section4:
       image: experts/helbing.jpeg
       twitter: https://twitter.com/DirkHelbing?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
       linkedin: https://ch.linkedin.com/in/dirk-helbing-58b291b1
-    # TODO: Fill out or remove speakers
-    - name: expert II
-      role: expertise II
-      image: experts/2.jpg
-      twitter:
-      linkedin:
-    - name: expert III
-      role: expertise III
-      image: experts/3.jpg
-      twitter:
-      linkedin:
+    - name: Rosy Mondardini
+      role: Citizen Science Center
+      image: experts/rosy.jpg
+      twitter: https://twitter.com/rosymond
+      linkedin: https://www.linkedin.com/in/rosy-mondardini/
+    - name: Thomas Maillart
+      role: University of Geneva
+      image: experts/thomas.jpg
+      linkedin: https://www.linkedin.com/in/thomasmaillart/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=ch
+    - name: Evangelos Pournaras
+      role: University of Leeds
+      image: experts/Evangelos.jpg
+      twitter: https://twitter.com/EPournaras?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+      linkedin: https://www.linkedin.com/in/epournaras/?originalSubdomain=uk
+    - name: Christoph Laib
+      role: Creative Hub
+      image: experts/Christoph.jpg
+      twitter: https://mobile.twitter.com/claib
+      linkedin: https://www.linkedin.com/in/christoph-laib-57444a/?originalSubdomain=ch
 
 section5:
   title: Frequently asked questions
