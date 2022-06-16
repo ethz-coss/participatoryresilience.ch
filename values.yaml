@@ -86,10 +86,10 @@ section3:
         - name: IoT workshop
           start: "13:30"
           end: "14:30"
-        - name: explore facility
+        - name: Indushree Banerjee
           start: "14:30"
           end: "15:30"
-        - name: gadget activity
+        - name: explore facility/gadget activity
           start: "16:00"
           end: "17:00"
       image: timeline/welcome.jpg
@@ -172,6 +172,11 @@ section4:
       image: experts/rosy.jpg
       twitter: https://twitter.com/rosymond
       linkedin: https://www.linkedin.com/in/rosy-mondardini/
+    - name: Indushree Banerjee
+      role: TU Delft
+      image: experts/Indushree.jpg
+      twitter: https://twitter.com/sosbanerjee
+      linkedin: https://www.linkedin.com/in/indushree-banerjee-18390152/?originalSubdomain=nl
     - name: Thomas Maillart
       role: University of Geneva
       image: experts/thomas.jpg
