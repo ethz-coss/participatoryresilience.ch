@@ -17,6 +17,7 @@ title:
   heading: Participatory Resilience
   subheading: Empower Society with Social IoT from 05. to 09.09.
   button_text: Learn more!
+  registration_text: Sign up now!
   image: title/network_blue.jpg
   description:
     heading: What this hackathon does
@@ -211,7 +212,9 @@ section5:
 
 
 section6:
-  title: Getting started
+  title: Join us & get started
+  text: Sign up and join _ participants!
+  signed_up: "38"
   subtitle: Here are a few links to related work and helpful resources
   content_items:
     - title: Paper
@@ -238,7 +241,7 @@ contactform:
 # TODO: Moodle Course Link
 
 footer:
-  vvz_link: http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&lang=de&ansicht=EINSCHRAENKUNGEN&lerneinheitId=165358
+  vvz_link: http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&lang=de&ansicht=LEHRVERANSTALTUNGEN&lerneinheitId=165358
   moodle_link: https://moodle-app2.let.ethz.ch
   coss_link: https://coss.ethz.ch
   coci_link: https://coss.ethz.ch/research/CoCi.html
