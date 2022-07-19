@@ -67,7 +67,10 @@ section2:
       subtitle: Integrating into an existing open-source platform
       description: The tool is most useful if it is integrated into an existing open-source platform. Like open street map, for example. Which open access platforms can you think about? Which ones do you think would be useful?
       image: challenges/integration.jpeg
-
+    - title: Ad-hoc networks
+      substitle: Connecting IoT via ad-hoc networks
+      description: Ad-hoc networks can be used to create dynamic and decentralised communication networks. Their applications range from messaging apps (such as firechat, that was able to avoid governmental censorship in the Arab Spring protests), improving Internet coverage or crisis  management in catastrophes. These networks can serve as a backbone to a new paradigm of participatory resilient societies.
+      image: challenges/analytics.jpeg
 
 
 section3:
@@ -243,6 +246,7 @@ footer:
   coss_link: https://coss.ethz.ch
   coci_link: https://coss.ethz.ch/research/CoCi.html
   erc_link: https://erc.europa.eu/
+  freifunk_link: https://freifunk-3laendereck.net
   erc_text: "This course has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 833168, “CoCi: Co-Evolving City Life”."
   image_attributions:
     - name: "'Climate' icon by monkik"
