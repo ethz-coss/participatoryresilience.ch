@@ -20,7 +20,7 @@ title:
   registration_text: Sign up now!
   image: title/network_blue.jpg
   description:
-    heading: What this hackathon does
+    heading: About this hackathon
     text: |
       This is a Block Course for ETH students that is organized as a hackathon. It will allow students to showcase their innovative spirit through different projects. The fast-paced structure of the course produces an atmosphere of creativity and collaboration as makers work in teams of up to five to create their product. Teams will be provided with easy-to-use technology (RaspberryPi, Arduino, etc.), tools, materials, co-working space and mentorship to turn their ideas into reality.
   countdown:
@@ -52,7 +52,7 @@ section2:
       subtitle: Designing a sensor for environmental monitoring
       image: challenges/iot.jpeg
       description: The current prototype has a modular design and several functionalities ranging from particulate matter measurement to light intensity measurement. The goal of this task would be to improve the usability of the sensing device by either improving the current hardware configuration or adding new functionalities.
-    - title: 3D modelling
+    - title: 3D Modelling
       subtitle: 3D modelling for enclosure design
       description: 3D printing has revolutionized the way people create products for personal and commercial use. It is now much easier for businesses and individuals to turn their ideas into reality without having to spend a lot of money. You can design 3D printing products yourself using 3D model or Cad software and send them to your 3D printer for printing. We have developed a basic CAD model for the enclosure of IoT device. How can it be made more user friendly? How can the design be made more modular to allow so that it can be used for indoor and outdoor environmental monitoring.
       image: challenges/3d.jpeg
@@ -68,7 +68,10 @@ section2:
       subtitle: Integrating into an existing open-source platform
       description: The tool is most useful if it is integrated into an existing open-source platform. Like open street map, for example. Which open access platforms can you think about? Which ones do you think would be useful?
       image: challenges/integration.jpeg
-
+    - title: Ad-hoc networks
+      substitle: Connecting IoT via ad-hoc networks
+      description: Ad-hoc networks can be used to create dynamic and decentralised communication networks. Their applications range from messaging apps (such as firechat, that was able to avoid governmental censorship in the Arab Spring protests), improving Internet coverage or crisis  management in catastrophes. These networks can serve as a backbone to a new paradigm of participatory resilient societies.
+      image: challenges/analytics.jpeg
 
 
 section3:
@@ -78,58 +81,94 @@ section3:
     - title: Day 1
       subtitle: Welcome
       content_items:
-        - name: introduction
+        - name: Dirk Helbing—introduction
           start: "9:00"
-          end: "9:30"
-        - name: Rosy Mondardini
-          start: "9:30"
+          end: "10:00"
+        - name: Rosy Mondardini—Co-creation and Citizen Science
+          start: "10:00"
           end: "10:30"
-        - name: IoT workshop
+        - name: coffee
+          start: "10:30"
+          end: "11:00"
+        - name: Sachit Mahajan—IoT workshop
+          start: "11:00"
+          end: "12:30"
+        - name: Lunch
+          start: "12:30"
+          end: "13:30"
+        - name: Indushree Banerjee—Emergency communication
           start: "13:30"
           end: "14:30"
-        - name: Indushree Banerjee
+        - name: name your gadget
           start: "14:30"
+          end: "15:00"
+        - name: coffee
+          start: "15:00"
           end: "15:30"
         - name: explore facility/gadget activity
-          start: "16:00"
+          start: "15:30"
+          end: "16:30"
+        - name: get to know your lecturers
+          start: "16:30"
           end: "17:00"
       image: timeline/welcome.jpg
     - title: Day 2
       subtitle: Team formation
       content_items:
-        - name: Thomas Maillart
-          start: "9:00"
-          end: "10:00"
-        - name: open data workshop
+        - name: Christoph Laib—Retrospective idea exchange
+          start: "09:00"
+          end: "09:30"
+        - name: Thomas Maillart—talk
+          start: "09:30"
+          end: "10:30"
+        - name: coffee—get to know Thomas Maillart
           start: "10:30"
           end: "11:00"
-        - name: ideation phase
+        - name: ideation phase/research
           start: "11:00"
-          end: "12:00"
-        - name: blockchain workshop
+          end: "12:30"
+        - name: lunch
+          start: "12:30"
+          end: "13:30"
+        - name: Christoph Laib—team building activity
           start: "13:30"
           end: "14:30"
         - name: research and find team
           start: "14:30"
+          end: "15:00"
+        - name: coffee
+          start: "15:00"
           end: "15:30"
-        - name: HPC workshop
-          start: "16:00"
+        - name: Javier Argota Sanchez-Vaqueriz—Open data workshop
+          start: "15:30"
           end: "17:00"
       image: timeline/teambuilding.jpg
     - title: Day 3
       subtitle: Implementation
       content_items:
-        - name: Evangelos Pournaras
+        - name: Evangelos Pournaras—talk
           start: "9:00"
           end: "10:00"
-        - name: develop project
+        - name: Evangelos Pournaras—code
           start: "10:00"
+          end: "10:30"
+        - name: coffee
+          start: "10:30"
+          end: "11:00"
+        - name: Evangelos Pournaras—code
+          start: "11:00"
+          end: "12:30"
+        - name: lunch
+          start: "12:30"
+          end: "13:30"
+        - name: develop project
+          start: "13:30"
           end: "17:00"
       image: timeline/coding.jpg
     - title: Day 4
       subtitle: Implementation 2
       content_items:
-        - name: Christoph Laib
+        - name: HPC workshop
           start: "9:00"
           end: "9:30"
         - name: develop project
@@ -246,6 +285,7 @@ footer:
   coss_link: https://coss.ethz.ch
   coci_link: https://coss.ethz.ch/research/CoCi.html
   erc_link: https://erc.europa.eu/
+  freifunk_link: https://freifunk-3laendereck.net
   erc_text: "This course has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 833168, “CoCi: Co-Evolving City Life”."
   image_attributions:
     - name: "'Climate' icon by monkik"
