@@ -69,7 +69,7 @@ section2:
       description: The tool is most useful if it is integrated into an existing open-source platform. Like open street map, for example. Which open access platforms can you think about? Which ones do you think would be useful?
       image: challenges/integration.jpeg
     - title: Ad-hoc networks
-      substitle: Connecting IoT via ad-hoc networks
+      subtitle: Connecting IoT via ad-hoc networks
       description: Ad-hoc networks can be used to create dynamic and decentralised communication networks. Their applications range from messaging apps (such as firechat, that was able to avoid governmental censorship in the Arab Spring protests), improving Internet coverage or crisis  management in catastrophes. These networks can serve as a backbone to a new paradigm of participatory resilient societies.
       image: challenges/analytics.jpeg
 
@@ -190,7 +190,7 @@ section3:
         - name: demo
           start: "14:30"
           end: "15:30"
-        - name: winner ceremony
+        - name: winner ceremony & Apero
           start: "16:00"
           end: "17:00"
       image: timeline/presentation.jpg
