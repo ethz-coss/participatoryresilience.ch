@@ -69,7 +69,7 @@ section2:
       description: The tool is most useful if it is integrated into an existing open-source platform. Like open street map, for example. Which open access platforms can you think about? Which ones do you think would be useful?
       image: challenges/integration.jpeg
     - title: Ad-hoc networks
-      substitle: Connecting IoT via ad-hoc networks
+      subtitle: Connecting IoT via ad-hoc networks
       description: Ad-hoc networks can be used to create dynamic and decentralised communication networks. Their applications range from messaging apps (such as firechat, that was able to avoid governmental censorship in the Arab Spring protests), improving Internet coverage or crisis  management in catastrophes. These networks can serve as a backbone to a new paradigm of participatory resilient societies.
       image: challenges/analytics.jpeg
 
@@ -141,6 +141,9 @@ section3:
           end: "15:30"
         - name: Javier Argota Sanchez-Vaqueriz—Open data workshop
           start: "15:30"
+          end: "16:30"
+        - name: hands on open data
+          start: "16:30"
           end: "17:00"
       image: timeline/teambuilding.jpg
     - title: Day 3
@@ -168,7 +171,7 @@ section3:
     - title: Day 4
       subtitle: Implementation 2
       content_items:
-        - name: HPC workshop
+        - name: Chris Salter—Design and Computation Arts
           start: "9:00"
           end: "9:30"
         - name: develop project
@@ -193,6 +196,9 @@ section3:
         - name: winner ceremony
           start: "16:00"
           end: "17:00"
+        - name: Apero
+          start: "17:00"
+          end: "open"
       image: timeline/presentation.jpg
   timeline_conclusion_text: "Be part <br/> of social <br/> IoT!" # needs a little fiddling with line breaks
 
@@ -231,6 +237,9 @@ section4:
       image: experts/Christoph.png
       twitter: https://mobile.twitter.com/claib
       linkedin: https://www.linkedin.com/in/christoph-laib-57444a/
+    - name: Chris Salter
+      role: Design and Computation Arts
+      image: experts/Salter.jpg
 
 section5:
   title: Frequently asked questions
@@ -253,7 +262,7 @@ section5:
 section6:
   title: Join us & get started
   text: Sign up and join _ participants!
-  signed_up: "38"
+  signed_up: "41"
   subtitle: Here are a few links to related work and helpful resources
   content_items:
     - title: Paper
