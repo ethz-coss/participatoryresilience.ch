@@ -113,9 +113,9 @@ section3:
           end: "17:00"
       image: timeline/welcome.jpg
     - title: Day 2
-      subtitle: Team formation
+      subtitle: Team up!
       content_items:
-        - name: Christoph Laib—Retrospective idea exchange
+        - name: Christoph Laib—idea exchange
           start: "09:00"
           end: "09:30"
         - name: Thomas Maillart—talk
@@ -124,41 +124,35 @@ section3:
         - name: coffee—get to know Thomas Maillart
           start: "10:30"
           end: "11:00"
-        - name: ideation phase/research
+        - name: ideation phase
           start: "11:00"
           end: "12:30"
         - name: lunch
           start: "12:30"
           end: "13:30"
-        - name: Christoph Laib—team building activity
+        - name: Christoph Laib—team building
           start: "13:30"
           end: "14:30"
-        - name: research and find team
+        - name: team up and research ideas
           start: "14:30"
           end: "15:00"
         - name: coffee
           start: "15:00"
           end: "15:30"
-        - name: Javier Argota Sanchez-Vaqueriz—Open data workshop
+        - name: pitch your ideas 20x20 (Pecha Kucha)
           start: "15:30"
-          end: "16:30"
-        - name: hands on open data
-          start: "16:30"
+          end: "16:00"
+        - name: Javier Argota Sanchez-Vaqueriz—Open data workshop
+          start: "16:00"
           end: "17:00"
       image: timeline/teambuilding.jpg
     - title: Day 3
       subtitle: Implementation
       content_items:
-        - name: Evangelos Pournaras—talk
+        - name: Evangelos Pournaras—talk (via zoom)
           start: "9:00"
           end: "10:00"
-        - name: Evangelos Pournaras—code
-          start: "10:00"
-          end: "10:30"
-        - name: coffee
-          start: "10:30"
-          end: "11:00"
-        - name: Evangelos Pournaras—code
+        - name: develop project
           start: "11:00"
           end: "12:30"
         - name: lunch
@@ -169,17 +163,23 @@ section3:
           end: "17:00"
       image: timeline/coding.jpg
     - title: Day 4
-      subtitle: Implementation 2
+      subtitle: Implementation
       content_items:
-        - name: Chris Salter—Design and Computation Arts
+        - name: (day might change) Chris Salter—Design and Computation Arts
           start: "9:00"
           end: "9:30"
-        - name: develop project
+        - name: Carina I. Hausladen—20x20 on the theory of Participatory Resilience
           start: "9:30"
+          end: "9:37"
+        - name: Joshua Yang—20x20 on Democratic Resilience
+          start: "9:37"
+          end: "9:45"
+        - name: develop project
+          start: "9:45"
           end: "17:00"
       image: timeline/coding.jpg
     - title: Day 5
-      subtitle: Demo
+      subtitle: Present your work
       content_items:
         - name: expert talk
           start: "9:00"
@@ -204,8 +204,8 @@ section3:
 
 
 section4:
-  title: Our Experts
-  subtitle: They will provide insights and support for your project.
+  title: Experts you will meet.
+  subtitle: These experts will provide insights and support for your project.
   description: Don't miss the opportunity to get to know them after their keynotes!
   content_items:
     - name: Dirk Helbing
