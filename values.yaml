@@ -80,7 +80,6 @@ section2:
         Infrastructure-less mobile applications such as Firechat helps in forming networks that utilize the Wi-Fi direct of phones to form decentralized fully connected mesh networks. A mesh network lets all people in a vicinity connect to each other. Think of a relay where everyone holds hand to pass on an object from one end to another. In a mesh network, all phones using their Wi-Fi direct connect with all their neighbors around them and a fully connected network arises. A great solution for a place where everyone has the same quality of phone and almost identical battery to connect and relay messages for others.
 
         Unfortunately, in reality most disaster prone areas consist of varied population densities that have different kinds of phones. This results in few people with high energy/battery phones and some with extremely low. Lack of consideration for this disparity of battery power means that participation in the network also becomes unequal. This can be fatal during a disaster.
-
         The first 72 hours after a disaster is crucial to save lives and thus a reliable communication system is essential for affected communities to initiate their own rescue efforts. But during disasters, residents are often unable to charge their phones due to power outages. Only those who currently have a charged battery can communicate.
 
         SOS designed by Indushree Banerjee solves this issue with the design of a self-organized automatic context-aware protocol that ensures the energy in the network is used more evenly, i.e. more fairly and everyone benefits from this fair distribution.  The key advantage of the SOS system is that all phones irrespective of disparity of battery charge gets equal participation opportunity. The designed protocol for its context-aware properties can self-heal to changing environments.
@@ -111,10 +110,13 @@ section3:
     - title: Day 1
       subtitle: Welcome
       content_items:
-        - name: Dirk Helbing—introduction
+        - name: pick your sticker
           start: "9:00"
+          end: "9:15"
+        - name: Dirk Helbing—introduction
+          start: "9:15"
           end: "10:00"
-        - name: Rosy Mondardini—Co-creation and Citizen Science
+        - name: Rosy Mondardini—co-creation and citizen science
           start: "10:00"
           end: "10:30"
         - name: coffee
@@ -126,7 +128,7 @@ section3:
         - name: Lunch
           start: "12:30"
           end: "13:30"
-        - name: Indushree Banerjee—Emergency communication
+        - name: Indushree Banerjee—emergency communication
           start: "13:30"
           end: "14:30"
         - name: name your gadget
@@ -145,7 +147,7 @@ section3:
     - title: Day 2
       subtitle: Team up!
       content_items:
-        - name: Christoph Laib—idea exchange
+        - name: Christoph Laib—map to navigate the day
           start: "09:00"
           end: "09:30"
         - name: Thomas Maillart—talk
@@ -154,7 +156,7 @@ section3:
         - name: coffee—get to know Thomas Maillart
           start: "10:30"
           end: "11:00"
-        - name: ideation phase
+        - name: Christoph Laib—ideation phase
           start: "11:00"
           end: "12:30"
         - name: lunch
@@ -206,6 +208,15 @@ section3:
           end: "9:45"
         - name: develop project
           start: "9:45"
+          end: "14:30"
+        - name: present project updates
+          start: "14:30"
+          end: "15:00"
+        - name: coffee
+          start: "15:00"
+          end: "15:30"
+        - name: develop project
+          start: "15:30"
           end: "17:00"
       image: timeline/coding.jpg
     - title: Day 5
@@ -263,7 +274,7 @@ section4:
       twitter: https://twitter.com/EPournaras
       linkedin: https://www.linkedin.com/in/epournaras/
     - name: Christoph Laib
-      role: Creative Hub
+      role: VIOS GmbH
       image: experts/Christoph.png
       twitter: https://mobile.twitter.com/claib
       linkedin: https://www.linkedin.com/in/christoph-laib-57444a/
