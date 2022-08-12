@@ -1,4 +1,5 @@
 from jinja2 import Environment, FileSystemLoader
+import markdown
 import os, sys, pathlib
 import yaml
 
@@ -10,7 +11,9 @@ except IndexError:
     sys.exit("Please call with python main.py <temmplate_dir> <output_dir> <content>.yaml")
 
 
-env = Environment( loader = FileSystemLoader(src_dir) )
+env = Environment( loader = FileSystemLoader(src_dir))
+env.filters['markdown'] = markdown.markdown
+
 template = env.get_template('main.html')
 
 page_context = yaml.safe_load(config_yaml.read_text())

@@ -71,8 +71,38 @@ section2:
     - title: Ad-hoc networks
       subtitle: Connecting IoT via ad-hoc networks
       description: Ad-hoc networks can be used to create dynamic and decentralised communication networks. Their applications range from messaging apps (such as firechat, that was able to avoid governmental censorship in the Arab Spring protests), improving Internet coverage or crisis  management in catastrophes. These networks can serve as a backbone to a new paradigm of participatory resilient societies.
-      image: challenges/analytics.jpeg
+      image: challenges/network.jpg
+    - title: Implementing SOS
+      subtitle: A fair smartphone network during disasters
+      description: | #sorry for this ugly formatting
+        An almost empty phone can mean the difference between life and death in a disaster. On any given day communication using mobile phones requires functional infrastructure, however what happens when the infrastructure is gone due to a disaster. How do people seek information and collaborate to survive?
 
+        Infrastructure-less mobile applications such as Firechat helps in forming networks that utilize the Wi-Fi direct of phones to form decentralized fully connected mesh networks. A mesh network lets all people in a vicinity connect to each other. Think of a relay where everyone holds hand to pass on an object from one end to another. In a mesh network, all phones using their Wi-Fi direct connect with all their neighbors around them and a fully connected network arises. A great solution for a place where everyone has the same quality of phone and almost identical battery to connect and relay messages for others.
+
+        Unfortunately, in reality most disaster prone areas consist of varied population densities that have different kinds of phones. This results in few people with high energy/battery phones and some with extremely low. Lack of consideration for this disparity of battery power means that participation in the network also becomes unequal. This can be fatal during a disaster.
+
+        The first 72 hours after a disaster is crucial to save lives and thus a reliable communication system is essential for affected communities to initiate their own rescue efforts. But during disasters, residents are often unable to charge their phones due to power outages. Only those who currently have a charged battery can communicate.
+
+        SOS designed by Indushree Banerjee solves this issue with the design of a self-organized automatic context-aware protocol that ensures the energy in the network is used more evenly, i.e. more fairly and everyone benefits from this fair distribution.  The key advantage of the SOS system is that all phones irrespective of disparity of battery charge gets equal participation opportunity. The designed protocol for its context-aware properties can self-heal to changing environments.
+
+        ### For a more detailed explanation check:
+        [https://www.youtube.com/watch?v=rFKgYMhR6-Y](https://www.youtube.com/watch?v=rFKgYMhR6-Y)
+
+        ### Reading materials
+        [https://www.nature.com/articles/s41598-021-86635-y](https://www.nature.com/articles/s41598-021-86635-y)
+
+        [https://link.springer.com/article/10.1186/s40294-020-00073-7](https://link.springer.com/article/10.1186/s40294-020-00073-7)
+
+        ### Goal of the hackathon:
+        Your goal is to convert the pseudocode of SOS into a functional mobile application that leads to the formation of a scale-free loop-free mobile ad hoc network that is context-aware and delivery participatory fairness. For the pseudocode of the algorithms read: 
+
+        [https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-021-86635-y/MediaObjects/41598_2021_86635_MOESM1_ESM.pdf](https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-021-86635-y/MediaObjects/41598_2021_86635_MOESM1_ESM.pdf)
+
+        ### Refer to the following for more inspiration
+        [https://www.tudelft.nl/en/stories/articles/saving-lives-with-a-fair-emergency-communication-system](https://www.tudelft.nl/en/stories/articles/saving-lives-with-a-fair-emergency-communication-system)
+
+        [https://www.tudelft.nl/2021/tu-delft/nieuw-zelf-organiserend-rampencommunicatiesysteem-kan-levens-redden](https://www.tudelft.nl/2021/tu-delft/nieuw-zelf-organiserend-rampencommunicatiesysteem-kan-levens-redden)
+      image: challenges/sos.jpg
 
 section3:
   title: Agenda
@@ -113,9 +143,9 @@ section3:
           end: "17:00"
       image: timeline/welcome.jpg
     - title: Day 2
-      subtitle: Team formation
+      subtitle: Team up!
       content_items:
-        - name: Christoph Laib—Retrospective idea exchange
+        - name: Christoph Laib—idea exchange
           start: "09:00"
           end: "09:30"
         - name: Thomas Maillart—talk
@@ -124,41 +154,35 @@ section3:
         - name: coffee—get to know Thomas Maillart
           start: "10:30"
           end: "11:00"
-        - name: ideation phase/research
+        - name: ideation phase
           start: "11:00"
           end: "12:30"
         - name: lunch
           start: "12:30"
           end: "13:30"
-        - name: Christoph Laib—team building activity
+        - name: Christoph Laib—team building
           start: "13:30"
           end: "14:30"
-        - name: research and find team
+        - name: team up and research ideas
           start: "14:30"
           end: "15:00"
         - name: coffee
           start: "15:00"
           end: "15:30"
-        - name: Javier Argota Sanchez-Vaqueriz—Open data workshop
+        - name: pitch your ideas 20x20 (Pecha Kucha)
           start: "15:30"
-          end: "16:30"
-        - name: hands on open data
-          start: "16:30"
+          end: "16:00"
+        - name: Javier Argota Sanchez-Vaqueriz—Open data workshop
+          start: "16:00"
           end: "17:00"
       image: timeline/teambuilding.jpg
     - title: Day 3
       subtitle: Implementation
       content_items:
-        - name: Evangelos Pournaras—talk
+        - name: Evangelos Pournaras—talk (via zoom)
           start: "9:00"
           end: "10:00"
-        - name: Evangelos Pournaras—code
-          start: "10:00"
-          end: "10:30"
-        - name: coffee
-          start: "10:30"
-          end: "11:00"
-        - name: Evangelos Pournaras—code
+        - name: develop project
           start: "11:00"
           end: "12:30"
         - name: lunch
@@ -169,17 +193,23 @@ section3:
           end: "17:00"
       image: timeline/coding.jpg
     - title: Day 4
-      subtitle: Implementation 2
+      subtitle: Implementation
       content_items:
-        - name: Chris Salter—Design and Computation Arts
+        - name: (day might change) Chris Salter—Design and Computation Arts
           start: "9:00"
           end: "9:30"
-        - name: develop project
+        - name: Carina I. Hausladen—20x20 on the theory of Participatory Resilience
           start: "9:30"
+          end: "9:37"
+        - name: Joshua Yang—20x20 on Democratic Resilience
+          start: "9:37"
+          end: "9:45"
+        - name: develop project
+          start: "9:45"
           end: "17:00"
       image: timeline/coding.jpg
     - title: Day 5
-      subtitle: Demo
+      subtitle: Present your work
       content_items:
         - name: expert talk
           start: "9:00"
@@ -204,8 +234,8 @@ section3:
 
 
 section4:
-  title: Our Experts
-  subtitle: They will provide insights and support for your project.
+  title: Experts you will meet.
+  subtitle: These experts will provide insights and support for your project.
   description: Don't miss the opportunity to get to know them after their keynotes!
   content_items:
     - name: Dirk Helbing
@@ -286,7 +316,6 @@ contactform:
 
 
 
-# TODO: Moodle Course Link
 
 footer:
   vvz_link: http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&lang=de&ansicht=LEHRVERANSTALTUNGEN&lerneinheitId=165358
@@ -296,6 +325,7 @@ footer:
   erc_link: https://erc.europa.eu/
   freifunk_link: https://freifunk-3laendereck.net
   erc_text: "This course has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 833168, “CoCi: Co-Evolving City Life”."
+  
   image_attributions:
     - name: "'Climate' icon by monkik"
       source_name: The Noun Project
@@ -321,3 +351,11 @@ footer:
       source_name: Unsplash
       source_domain: https://unsplash.com
       source_url: https://unsplash.com/photos/wD1LRb9OeEo
+    - name: Photo by Mario Caruso
+      source_name: Unsplash
+      source_domain: https://unsplash.com
+      source_url: https://unsplash.com/photos/0C9VmZUqcT8
+    - name: Photo by Alina Grubnyak
+      source_name: Unsplash
+      source_domain: https://unsplash.com
+      source_url: https://unsplash.com/photos/ZiQkhI7417A
