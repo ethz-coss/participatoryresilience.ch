@@ -107,7 +107,7 @@ section3:
   title: Agenda
   subtitle: What happens when
   content_items:
-    - title: Day 1
+    - title: Day 1 (Mo. 05.09.2022)
       subtitle: Welcome
       content_items:
         - name: pick your sticker
@@ -144,7 +144,7 @@ section3:
           start: "16:30"
           end: "17:00"
       image: timeline/welcome.jpg
-    - title: Day 2
+    - title: Day 2 (Tu. 06.09.2022)
       subtitle: Team up!
       content_items:
         - name: Lilian Blaser (and Markus Meile, TBD)
@@ -181,7 +181,7 @@ section3:
           start: "16:00"
           end: "17:00"
       image: timeline/teambuilding.jpg
-    - title: Day 3
+    - title: Day 3 (We. 07.09.2022)
       subtitle: Implementation
       content_items:
         - name: Thomas Maillart (tentative)
@@ -209,7 +209,7 @@ section3:
           start: "15:30"
           end: "17:00"
       image: timeline/coding.jpg
-    - title: Day 4
+    - title: Day 4 (Th. 08.09.2022)
       subtitle: Implementation
       content_items:
         - name: (day might change) Chris Salter—Design and Computation Arts
@@ -234,7 +234,7 @@ section3:
           start: "15:30"
           end: "17:00"
       image: timeline/coding.jpg
-    - title: Day 5
+    - title: Day 5 (Fr. 09.08.2022)
       subtitle: Present your work
       content_items:
         - name: finalize project
