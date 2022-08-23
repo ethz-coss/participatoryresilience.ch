@@ -228,11 +228,8 @@ section3:
     - title: Day 5
       subtitle: Present your work
       content_items:
-        - name: expert talk
-          start: "9:00"
-          end: "10:00"
         - name: finalize project
-          start: "10:00"
+          start: "09:00"
           end: "11:30"
         - name: prepare demo
           start: "11:30"
@@ -290,6 +287,12 @@ section4:
     - name: Chris Salter
       role: Design and Computation Arts
       image: experts/Salter.jpg
+    - name: Lilian Blaser
+      role: EBP
+      image: experts/blaser.jpeg
+    - name: Tobias Luthe
+      role: ETH
+      image: experts/luthe.jpg
 
 section5:
   title: Frequently asked questions
