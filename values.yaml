@@ -147,14 +147,20 @@ section3:
     - title: Day 2
       subtitle: Team up!
       content_items:
-        - name: Lilian Blaser
+        - name: Lilian Blaser (and Markus Meile, TBD)
           start: "09:00"
           end: "09:30"
         - name: Evangelos Pournaras—talk, workshop (via zoom)
           start: "09:45"
-          end: "11:15"
-        - name: Christoph Laib—ideation phase
+          end: "10:30"
+        - name: coffee
+          start: "10:30"
+          end: "11:00"
+        - name: Tobias Luthe
           start: "11:00"
+          end: "11:45"
+        - name: Christoph Laib—ideation phase
+          start: "11:45"
           end: "12:30"
         - name: lunch
           start: "12:30"
@@ -171,7 +177,7 @@ section3:
         - name: pitch your ideas 20x20 (Pecha Kucha)
           start: "15:30"
           end: "16:00"
-        - name: Javier Argota Sanchez-Vaqueriz—Open data workshop
+        - name: develop idea
           start: "16:00"
           end: "17:00"
       image: timeline/teambuilding.jpg
@@ -190,8 +196,11 @@ section3:
         - name: lunch
           start: "12:30"
           end: "13:30"
-        - name: develop project
+        - name: Javier Argota Sánchez-Vaquerizo (open data workshop)
           start: "13:30"
+          end: "14:00"
+        - name: develop project
+          start: "14:00"
           end: "15:00"
         - name: coffee
           start: "15:00"
