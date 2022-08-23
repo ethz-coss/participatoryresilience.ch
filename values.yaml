@@ -147,15 +147,12 @@ section3:
     - title: Day 2
       subtitle: Team up!
       content_items:
-        - name: Christoph Laib—map to navigate the day
+        - name: Lilian Blaser
           start: "09:00"
           end: "09:30"
-        - name: Evangelos Pournaras—talk, workshop
-          start: "09:30"
-          end: "11:00"
-        - name: coffee—get to know Thomas Maillart
-          start: "10:30"
-          end: "11:00"
+        - name: Evangelos Pournaras—talk, workshop (via zoom)
+          start: "09:45"
+          end: "11:15"
         - name: Christoph Laib—ideation phase
           start: "11:00"
           end: "12:30"
@@ -181,9 +178,12 @@ section3:
     - title: Day 3
       subtitle: Implementation
       content_items:
-        - name: Evangelos Pournaras—talk (via zoom)
+        - name: Thomas Maillart (tentative)
           start: "9:00"
-          end: "10:00"
+          end: "10:30"
+        - name: coffee—chat with Thomas Maillart (tentative)
+          start: "10:30"
+          end: "11:00"
         - name: develop project
           start: "11:00"
           end: "12:30"
@@ -192,6 +192,12 @@ section3:
           end: "13:30"
         - name: develop project
           start: "13:30"
+          end: "15:00"
+        - name: coffee
+          start: "15:00"
+          end: "15:30"
+        - name: develop project
+          start: "15:30"
           end: "17:00"
       image: timeline/coding.jpg
     - title: Day 4
@@ -230,16 +236,19 @@ section3:
           end: "11:30"
         - name: prepare demo
           start: "11:30"
-          end: "13:30"
+          end: "15:00"
         - name: demo
-          start: "14:30"
-          end: "15:30"
-        - name: winner ceremony
-          start: "16:00"
+          start: "15:00"
+          end: "16:30"
+        - name: panel
+          start: "16:30"
           end: "17:00"
-        - name: Apero
+        - name: winner ceremony
           start: "17:00"
-          end: "open"
+          end: "17:30"
+        - name: Apéro
+          start: "18:00"
+          end: "19:00"
       image: timeline/presentation.jpg
   timeline_conclusion_text: "Be part <br/> of social <br/> IoT!" # needs a little fiddling with line breaks
 
