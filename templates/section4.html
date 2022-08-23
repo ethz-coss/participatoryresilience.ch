@@ -5,9 +5,9 @@
             <h2 class="section-heading text-uppercase">{{ section4.title }}</h2>
             <h3 class="section-subheading text-muted">{{ section4.subtitle }}</h3>
         </div>
-        <div class="row">
+        <div class="row row-cols-1 row-cols-lg-3 justify-content-center">
             {% for i in section4.content_items %}
-                <div class="col-lg-4">
+                <div class="col">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/{{i.image }}" alt="..." />
                         <h4>{{i.name }}</h4>
@@ -21,7 +21,7 @@
                     </div>
                 </div>
             {% endfor %}
-
+        </div>
         <div class="row">
             <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">{{ section4.description }}</p></div>
         </div>
