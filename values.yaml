@@ -234,7 +234,7 @@ section3:
           start: "15:30"
           end: "17:00"
       image: timeline/coding.jpg
-    - title: Day 5 (Fr. 09.08.2022)
+    - title: Day 5 (Fr. 09.09.2022)
       subtitle: Present your work
       content_items:
         - name: finalize project
