@@ -122,7 +122,7 @@ section3:
         - name: coffee @polysnack
           start: "10:30"
           end: "11:00"
-        - name: Sachit Mahajan—IoT workshop
+        - name: Sachit Mahajan and Javier Argota—IoT and Data Integration workshop
           start: "11:00"
           end: "12:30"
         - name: Lunch
