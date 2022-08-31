@@ -22,7 +22,7 @@ title:
   description:
     heading: About this hackathon
     text: |
-      This is a Block Course for ETH students that is organized as a hackathon. It will allow students to showcase their innovative spirit through different projects. The fast-paced structure of the course produces an atmosphere of creativity and collaboration as makers work in teams of up to five to create their product. Teams will be provided with easy-to-use technology (RaspberryPi, Arduino, etc.), tools, materials, co-working space and mentorship to turn their ideas into reality.
+      This is a Block Course for ETH students that is organized as a hackathon. It will allow students to showcase their innovative spirit through different projects. The fast-paced structure of the course produces an atmosphere of creativity and collaboration as makers work in teams of up to five to create their product. Teams will be provided with easy-to-use technology (RaspberryPi, Arduino, etc.), tools, materials, co-working space and mentorship to turn their ideas into reality. Presenters' material will be published on moodle: https://moodle-app2.let.ethz.ch/course/view.php?id=18111
   countdown:
     date: September 5, 2022 0:00:00 # parsed by javascript. Keep this exact date format
     text: Starts in
@@ -48,25 +48,25 @@ section2:
   title: Challenges
   subtitle: You will work on the following topics
   content_items:
-    - title: Sensor Design
-      subtitle: Designing a sensor for environmental monitoring
+    - title: IoT Prototyping
+      subtitle: Prototyping a sensing device for crowdsouricng environmental data
       image: challenges/iot.jpeg
-      description: The current prototype has a modular design and several functionalities ranging from particulate matter measurement to light intensity measurement. The goal of this task would be to improve the usability of the sensing device by either improving the current hardware configuration or adding new functionalities.
-    - title: 3D Modelling
-      subtitle: 3D modelling for enclosure design
-      description: 3D printing has revolutionized the way people create products for personal and commercial use. It is now much easier for businesses and individuals to turn their ideas into reality without having to spend a lot of money. You can design 3D printing products yourself using 3D model or Cad software and send them to your 3D printer for printing. We have developed a basic CAD model for the enclosure of IoT device. How can it be made more user friendly? How can the design be made more modular to allow so that it can be used for indoor and outdoor environmental monitoring.
+      description: Traditional environmental monitoring methods typically rely on fixed monitoring stations, which are costly to set up and maintain. Although the data obtained from such stations is reliable, the spatial resolution is limited due to the small number of such stations. Because of advances in low-cost sensors and the availability of off-the-shelf hardware, it is now possible to build low-cost environmental monitoring devices using do-it-yourself (DIY) methods. Such devices not only increase data availability, but also allow for the use of low-cost sensors to complement official environmental monitoring systems. This challenge will revolve around the development of an open-source environmental monitoring IoT device using microprocessors, microcontrollers, sensors, and other materials that can potentially be used for crowdsourcing environmental data. Information about the design and development of an environmental monitoring IoT device is shared for motivation and to give participating teams a head start. The current prototype is modular in design and has a variety of functionalities ranging from particulate matter measurement to light intensity measurement. Teams can either improve the usability of an existing sensing device by improving the current hardware configuration or adding new functionalities, or they can develop a new prototype.
+    - title: Digital Fabrication
+      subtitle: Digital design and manufacturing of parts and components for IoT devices
+      description: "3D printing has revolutionized the way people create products for personal and commercial use. It is now much easier for businesses and individuals to turn their ideas into reality without having to spend a lot of money. This challenge will revolve around designing and creating new 3D printing models and products. You can either use or start from an existing 3D model or CAD software and send them to your 3D printing facility for printing. We have developed a basic CAD model for the enclosure for an IoT device. How can it be made more user friendly and sustainable? How can the design be made more modular to allow it to be used for different scenarios, for example: indoor/outdoor environmental sensing, mobile sensing, etc."
       image: challenges/3d.jpeg
     - title: Data Representation
       subtitle: Data visualization is critical in "making sense of data."
-      description: The goal is to provide a quick and efficient method of communicating data, identifying trends, and flagging data inconsistencies. The current version of the IoT device displays color coded data on the LED screen to provide users with visual feedback. The goal of this task would be to improve the user interface. The teams could focus on issues such as. Which data does the user want to see? How can it be presented in a user-friendly manner on the device as well as on the data visualization platform? Which representation results in behavior change?
+      description: "A critical part when dealing with a large volume of data is how to make sense of the data in a way that it can be easily understanable by experts as well as non-experts. The goal of this challenge is to provide an intuitive and efficient method of visualizing and communicating data. Storytelling with data can improve contextual understanding as well as facilitate action. The current version of the IoT device displays color coded data on the LED screen to provide visual feedback. The data from the device can be also be visualized in real-time on visualization streams. The goal of this task would be to improve the data representation. The teams could focus on issues (not limited to) such as: Which data does the user want to see? How can it be presented in a user-friendly manner on the device as well as on the data visualization platform? Which representation results in behavior change?"
       image: challenges/datarep.jpeg
     - title: Data Analytics
       subtitle: Data Science techniques have changed the way we handle sensor data.
-      description: Several data science tools and packages are available that can be used to get insights from heterogeneous and unstructured sensor data. These tools can be used to create open-source cross-platform applications that enable both novices and experts to visualize, interpret, and statistically analyze their data in meaningful ways. We created the exploreR (RShiny-based) application, which allows users to analyze their data without any programming knowledge. The goal is to either improve the application's functionality or create a new user-friendly application that allows for easy analysis of sensor data.
+      description: Several data science tools and packages are available that can be used to get insights from heterogeneous and unstructured sensor data. These tools can be used to create open-source cross-platform applications that enable both novices and experts to clean, visualize, interpret, and statistically analyze their data in meaningful ways. We created the exploreR (RShiny-based) application, which allows users to do a visual inspection of data and perform several data analysis tasks. The goal of this challenge is to either improve the application's functionality or create a new user-friendly application that allows for easy analysis of sensor data.
       image: challenges/analytics.jpeg
     - title: Data Integration
-      subtitle: Integrating into an existing open-source platform
-      description: The tool is most useful if it is integrated into an existing open-source platform. Like open street map, for example. Which open access platforms can you think about? Which ones do you think would be useful?
+      subtitle: Integrating data from multiple sources to expand scope
+      description: There is an abundance of open-source datasets that can be easily accessed and used to create new services and applications. Data integration not only improves the scope of existing applications but also allow creation of new frameworks (dashboards, applications, etc.) that can create new unexpected insights. The challenge would be to think about innovative ways in which the sensor data can enrich other datasets by adding new dimensions. 
       image: challenges/integration.jpeg
     - title: Ad-hoc networks
       subtitle: Connecting IoT via ad-hoc networks
@@ -107,10 +107,10 @@ section3:
   title: Agenda
   subtitle: What happens when
   content_items:
-    - title: Day 1
+    - title: Day 1 (Mo. 05.09.2022)
       subtitle: Welcome
       content_items:
-        - name: pick your sticker
+        - name: Welcome @ETF E1!
           start: "9:00"
           end: "9:15"
         - name: Dirk Helbing—introduction
@@ -119,10 +119,10 @@ section3:
         - name: Rosy Mondardini—co-creation and citizen science
           start: "10:00"
           end: "10:30"
-        - name: coffee
+        - name: coffee @polysnack
           start: "10:30"
           end: "11:00"
-        - name: Sachit Mahajan—IoT workshop
+        - name: Sachit Mahajan and Javier Argota—IoT and Data Integration workshop
           start: "11:00"
           end: "12:30"
         - name: Lunch
@@ -134,7 +134,7 @@ section3:
         - name: name your gadget
           start: "14:30"
           end: "15:00"
-        - name: coffee
+        - name: coffee @polysnack
           start: "15:00"
           end: "15:30"
         - name: explore facility/gadget activity
@@ -144,17 +144,23 @@ section3:
           start: "16:30"
           end: "17:00"
       image: timeline/welcome.jpg
-    - title: Day 2
+    - title: Day 2 (Tu. 06.09.2022)
       subtitle: Team up!
       content_items:
-        - name: Lilian Blaser
+        - name: Lilian Blaser (and Markus Meile, TBD)
           start: "09:00"
           end: "09:30"
-        - name: Evangelos Pournaras—talk, workshop (via zoom)
+        - name: Evangelos Pournaras (online)
           start: "09:45"
-          end: "11:15"
-        - name: Christoph Laib—ideation phase
+          end: "10:30"
+        - name: coffee @polysnack
+          start: "10:30"
+          end: "11:00"
+        - name: Tobias Luthe (online)
           start: "11:00"
+          end: "11:30"
+        - name: Christoph Laib—ideation phase
+          start: "11:30"
           end: "12:30"
         - name: lunch
           start: "12:30"
@@ -165,23 +171,23 @@ section3:
         - name: team up and research ideas
           start: "14:30"
           end: "15:00"
-        - name: coffee
+        - name: coffee @polysnack
           start: "15:00"
           end: "15:30"
         - name: pitch your ideas 20x20 (Pecha Kucha)
           start: "15:30"
           end: "16:00"
-        - name: Javier Argota Sanchez-Vaqueriz—Open data workshop
+        - name: develop idea
           start: "16:00"
           end: "17:00"
       image: timeline/teambuilding.jpg
-    - title: Day 3
+    - title: Day 3 (We. 07.09.2022)
       subtitle: Implementation
       content_items:
-        - name: Thomas Maillart (tentative)
+        - name: Thomas Maillart
           start: "9:00"
           end: "10:30"
-        - name: coffee—chat with Thomas Maillart (tentative)
+        - name: coffee @polysnack
           start: "10:30"
           end: "11:00"
         - name: develop project
@@ -191,61 +197,64 @@ section3:
           start: "12:30"
           end: "13:30"
         - name: develop project
-          start: "13:30"
+          start: "14:00"
           end: "15:00"
-        - name: coffee
+        - name: Chris Salter—Design and Computation Arts
+          start: "14:30"
+          end: "15:00"
+        - name: coffee @polysnack
           start: "15:00"
           end: "15:30"
         - name: develop project
           start: "15:30"
           end: "17:00"
       image: timeline/coding.jpg
-    - title: Day 4
+    - title: Day 4 (Th. 08.09.2022)
       subtitle: Implementation
       content_items:
-        - name: (day might change) Chris Salter—Design and Computation Arts
+        - name: Javier Argota Sánchez-Vaquerizo (open data workshop)
           start: "9:00"
-          end: "9:30"
-        - name: Carina I. Hausladen—20x20 on the theory of Participatory Resilience
-          start: "9:30"
-          end: "9:37"
-        - name: Joshua Yang—20x20 on Democratic Resilience
-          start: "9:37"
-          end: "9:45"
+          end: "10:30"
+        - name: coffee @polysnack
+          start: "10:30"
+          end: "11:00"
         - name: develop project
           start: "9:45"
           end: "14:30"
-        - name: present project updates
+        - name: present your project updates
           start: "14:30"
           end: "15:00"
-        - name: coffee
+        - name: coffee @polysnack
           start: "15:00"
           end: "15:30"
         - name: develop project
           start: "15:30"
           end: "17:00"
       image: timeline/coding.jpg
-    - title: Day 5
+    - title: Day 5 (Fr. 09.09.2022)
       subtitle: Present your work
       content_items:
         - name: finalize project
           start: "09:00"
           end: "11:30"
+        - name: coffee @polysnack
+          start: "10:30"
+          end: "11:00"
         - name: prepare demo
-          start: "11:30"
-          end: "15:00"
+          start: "10:30"
+          end: "13:00"
         - name: demo
-          start: "15:00"
-          end: "16:30"
+          start: "13:00"
+          end: "14:30"
         - name: panel
-          start: "16:30"
-          end: "17:00"
+          start: "14:00"
+          end: "14:30"
         - name: winner ceremony
-          start: "17:00"
-          end: "17:30"
-        - name: Apéro
-          start: "18:00"
-          end: "19:00"
+          start: "14:30"
+          end: "15:00"
+        - name: Apéro @polysnack
+          start: "15:00"
+          end: "16:00"
       image: timeline/presentation.jpg
   timeline_conclusion_text: "Be part <br/> of social <br/> IoT!" # needs a little fiddling with line breaks
 
@@ -315,7 +324,7 @@ section5:
 section6:
   title: Join us & get started
   text: Sign up and join _ participants!
-  signed_up: "41"
+  signed_up: "45"
   subtitle: Here are a few links to related work and helpful resources
   content_items:
     - title: Paper
@@ -325,6 +334,10 @@ section6:
     - title: Paper
       description: "Participatory resilience: Surviving, recovering and improving together"
       url: https://www.sciencedirect.com/science/article/pii/S2210670722002633?via%3Dihub
+      fa_icon: newspaper
+    - title: Paper
+      description: "Design and development of an open-source framework for citizen-centric environmental monitoring and data analysis"
+      url: https://www.nature.com/articles/s41598-022-18700-z
       fa_icon: newspaper
     - title: Repository
       description: Soc-IoT
@@ -345,9 +358,10 @@ footer:
   moodle_link: https://moodle-app2.let.ethz.ch
   coss_link: https://coss.ethz.ch
   coci_link: https://coss.ethz.ch/research/CoCi.html
-  erc_link: https://erc.europa.eu/
   freifunk_link: https://freifunk-3laendereck.net
-  erc_text: "This course has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 833168, “CoCi: Co-Evolving City Life”."
+  erc_link: https://erc.europa.eu/
+  footer_text_1: "This course has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme under grant agreement No. 833168, “CoCi: Co-Evolving City Life”."
+  footer_text_2: "Visitors acknowledge that they may be included in audio recordings, photos and video recordings taken during the event or in connection with it, and agree that these may be used without financial compensation or limited in terms of time or location."
   
   image_attributions:
     - name: "'Climate' icon by monkik"

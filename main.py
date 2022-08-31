@@ -22,3 +22,5 @@ page_context = yaml.safe_load(config_yaml.read_text())
 filename = os.path.join(out_dir, 'index.php')
 with open(filename, 'w') as f:
     f.write(template.render(**page_context))
+
+print("Wrote to {} successfully".format(filename))
