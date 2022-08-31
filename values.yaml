@@ -150,17 +150,17 @@ section3:
         - name: Lilian Blaser (and Markus Meile, TBD)
           start: "09:00"
           end: "09:30"
-        - name: Evangelos Pournaras—talk, workshop (via zoom)
+        - name: Evangelos Pournaras (online)
           start: "09:45"
           end: "10:30"
         - name: coffee @polysnack
           start: "10:30"
           end: "11:00"
-        - name: Tobias Luthe
+        - name: Tobias Luthe (online)
           start: "11:00"
-          end: "11:45"
+          end: "11:30"
         - name: Christoph Laib—ideation phase
-          start: "11:45"
+          start: "11:30"
           end: "12:30"
         - name: lunch
           start: "12:30"
@@ -184,7 +184,7 @@ section3:
     - title: Day 3 (We. 07.09.2022)
       subtitle: Implementation
       content_items:
-        - name: Thomas Maillart (tentative)
+        - name: Thomas Maillart
           start: "9:00"
           end: "10:30"
         - name: coffee @polysnack
@@ -324,7 +324,7 @@ section5:
 section6:
   title: Join us & get started
   text: Sign up and join _ participants!
-  signed_up: "41"
+  signed_up: "45"
   subtitle: Here are a few links to related work and helpful resources
   content_items:
     - title: Paper
