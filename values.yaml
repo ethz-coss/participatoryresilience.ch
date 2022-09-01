@@ -111,10 +111,13 @@ section3:
       subtitle: Welcome
       content_items:
         - name: Welcome @ETF E1!
-          start: "9:00"
-          end: "9:15"
+          start: "8:45"
+          end: "9:00"
         - name: Dirk Helbing—introduction
-          start: "9:15"
+          start: "9:00"
+          end: "9:30"
+        - name: Orga team—organizational points
+          start: "9:30"
           end: "10:00"
         - name: Rosy Mondardini—co-creation and citizen science
           start: "10:00"
