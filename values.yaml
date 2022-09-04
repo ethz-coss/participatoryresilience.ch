@@ -10,8 +10,7 @@ page: # general (meta-) information used mostly in the html header
   html_author: COSS@ETHZ
   html_description: hackathon, renewable, computational
   # search terms that are good for SEO
-  logo: navbar-logo.svg
-  
+
 
 title:
   heading: Participatory Resilience
@@ -21,12 +20,14 @@ title:
   image: title/network_blue.jpg
   description:
     heading: About this hackathon
-    text: |
-      This is a Block Course for ETH students that is organized as a hackathon. It will allow students to showcase their innovative spirit through different projects. The fast-paced structure of the course produces an atmosphere of creativity and collaboration as makers work in teams of up to five to create their product. Teams will be provided with easy-to-use technology (RaspberryPi, Arduino, etc.), tools, materials, co-working space and mentorship to turn their ideas into reality. Presenters' material will be published on moodle: https://moodle-app2.let.ethz.ch/course/view.php?id=18111
+    text: | # markdown syntax
+      This is a Block Course for ETH students that is organized as a hackathon. It will allow students to showcase their innovative spirit through different projects. The fast-paced structure of the course produces an atmosphere of creativity and collaboration as makers work in teams of up to five to create their product. Teams will be provided with easy-to-use technology (RaspberryPi, Arduino, etc.), tools, materials, co-working space and mentorship to turn their ideas into reality. Presenters' material will be published on moodle: [https://moodle-app2.let.ethz.ch/course/view.php?id=18111](https://moodle-app2.let.ethz.ch/course/view.php?id=18111)
   countdown:
-    date: September 5, 2022 0:00:00 # parsed by javascript. Keep this exact date format
-    text: Starts in
-    isover: Hackathon is over! Join us next time.
+    coming_up_text: Starts in
+    start_date: September 5, 2022 08:45:00 # parsed by javascript. Keep this exact date format
+    is_running_text: Hackathon is now live!
+    end_date: September 9, 2022 16:00:00 # parsed by javascript. Keep this exact date format
+    is_over_text: Hackathon is over! Join us next time.
 
 
 section1:
@@ -80,7 +81,7 @@ section3:
     - title: Day 1 (Mo. 05.09.2022)
       subtitle: Welcome
       content_items:
-        - name: Welcome @ETF E1!
+        - name: Welcome (Building-ETF, Room-E1)
           start: "8:45"
           end: "9:00"
         - name: Dirk Helbing—introduction
@@ -230,7 +231,7 @@ section3:
 
 
 section4:
-  title: Experts you will meet.
+  title: Experts you will meet
   subtitle: These experts will provide insights and support for your project.
   description: Don't miss the opportunity to get to know them after their keynotes!
   content_items:
@@ -294,7 +295,7 @@ section5:
 section6:
   title: Join us & get started
   text: Sign up and join _ participants!
-  signed_up: "37"
+  signed_up: "40"
   subtitle: Here are a few links to related work and helpful resources
   content_items:
     - title: Paper

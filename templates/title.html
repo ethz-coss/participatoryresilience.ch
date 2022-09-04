@@ -8,8 +8,12 @@
     <div class="masthead-heading text-uppercase">{{ title.heading }}</div>
     
     <div class="row justify-content-center">
+      <div class="col-2"><img style="max-height: 10rem;" src="/assets/img/CoCi_logo.png"></div>
+      <div class="col-2"><img style="max-height: 10rem;" src="/assets/img/footer/erc.png"></div>
+    </div>
+    <div class="row justify-content-center">
       <div class="col-lg-8 col-sm-12 mb-4" id="title-item"> {# governs width of card #}
-
+        
         <div class="row justify-content-center mb-3 title-item-caption">
           <div class="portfolio-caption-heading">{{ title.description.heading }}</div>
         </div>
@@ -17,46 +21,62 @@
         <div class="portfolio-main-content">
           <div class="title-item-text">
             <p>
-              {{ title.description.text }}
+              <style>
+                a {
+                  color: #fff;
+                }
+              </style>
+              {{ title.description.text|markdown }}
             </p>
           </div>
         </div>
-          
+        
       </div>
     </div>
-
+    
     <a class="btn btn-primary btn-xl text-uppercase mx-2" href="#section1">{{ title.button_text }}</a>
     <a class="btn btn-primary btn-xl text-uppercase mx-2" href="{{ footer.vvz_link }}">{{ title.registration_text }}</a>
+    
 
   </div>
 </header>
 <script>
   // Set the date we're counting down to
-  var countDownDate = new Date("{{ title.countdown.date }}").getTime();
+  var countDownDate = new Date("{{ title.countdown.start_date }}").getTime();
+  var endDate = new Date("{{ title.countdown.end_date }}").getTime();
   
-  // Update the count down every 1 second
-  var x = setInterval(function() {
+
+  var now = new Date().getTime();
   
-    // Get today's date and time
+  // Find the distance between now and the count down date
+  var dstart = countDownDate - now;
+  var dend = endDate - now;
+
+  if (dstart < 0 && dend < 0){ // Start AND end are in the past
+    clearInterval(x);
+    $("#count-down").html("{{ title.countdown.is_over_text }}");
+  } else if (dstart < 0 && dend > 0){ // start in past but end in future
+    clearInterval(x);
+    $("#count-down").html("{{ title.countdown.is_running_text }}");
+  } else { // Event is in the future
+    var x = setInterval(function() {
+    
+    // Get current time
     var now = new Date().getTime();
-  
+
     // Find the distance between now and the count down date
-    var distance = countDownDate - now;
-  
+    var dstart = countDownDate - now;
+
     // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
+    var days = Math.floor(dstart / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((dstart % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((dstart % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((dstart % (1000 * 60)) / 1000);
+
     // Display the result in the element with id="demo"
-    $("#count-down").html("{{ title.countdown.text }} " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
-  
-    // If the count down is finished, write some text
-    if (distance < 0) {
-      clearInterval(x);
-      $("#count-down").html("{{ title.countdown.isover }}");
-    }
+    $("#count-down").html("{{ title.countdown.coming_up_text }} " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
+
+
   }, 1000);
-  </script>
-  
+}
+</script>
