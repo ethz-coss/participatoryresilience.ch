@@ -322,6 +322,10 @@ section6:
       description: "Pseudocode: Introducing participatory fairness in emergency communication can support self-organization for survival"
       url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-021-86635-y/MediaObjects/41598_2021_86635_MOESM1_ESM.pdf
       fa_icon: newspaper
+     - title: Clean Air Routing
+      description: Code
+      url: https://github.com/sachit27/CAR-Clean-Air-Routing-Algorithm
+      fa_icon: github
 
 
 contactform:
