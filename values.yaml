@@ -30,7 +30,7 @@ title:
     is_over_text: Hackathon is over! Join us next time.
 
 
-section1:
+highlights:
   title: Highlights
   subtitle: What is in for you?
   content_items:
@@ -45,7 +45,7 @@ section1:
       fa_icon: map-pin
 
 
-section2:
+challenges:
   title: Challenges
   subtitle: You will work on the following topics
   content_items:
@@ -74,7 +74,7 @@ section2:
       description: An almost empty phone can mean the difference between life and death in a disaster. On any given day communication using mobile phones requires functional infrastructure, however what happens when the infrastructure is gone due to a disaster. How do people seek information and collaborate to survive? Ad-hoc networks can be used to create dynamic and decentralised communication networks. Their applications range from messaging apps (such as firechat, that was able to avoid governmental censorship in the Arab Spring protests), improving Internet coverage or crisis  management in catastrophes. These networks can serve as a backbone to a new paradigm of participatory resilient societies. This challenge will revolve around thinking of innovative ideas to create solutions with Ad-Hoc networks for promoting disaster resilience.  A potnetial application could be mobile application that leads to the formation of a scale-free loop-free mobile ad hoc network that is context-aware and delivery participatory fairness. You can find more information in the resources.
       image: challenges/network.jpg
       
-section3:
+timeline:
   title: Agenda
   subtitle: What happens when
   content_items:
@@ -133,7 +133,7 @@ section3:
         - name: Tobias Luthe (online)
           start: "11:00"
           end: "11:30"
-        - name: Christoph Laib—ideation phase
+        - name: Hello world!  
           start: "11:30"
           end: "12:30"
         - name: lunch
@@ -191,7 +191,10 @@ section3:
           end: "11:00"
         - name: develop project
           start: "11:00"
-          end: "14:30"
+          end: "14:10"
+        - name: group photo!
+          start: "14:15"
+          end: "14:25"
         - name: present your project updates
           start: "14:30"
           end: "15:00"
@@ -213,24 +216,53 @@ section3:
           end: "11:00"
         - name: prepare demo
           start: "10:30"
-          end: "13:00"
+          end: "12:30"
         - name: demo
-          start: "13:00"
-          end: "14:30"
+          start: "12:30"
+          end: "14:00"
         - name: panel
           start: "14:00"
-          end: "14:30"
+          end: "14:15"
         - name: winner ceremony
-          start: "14:30"
-          end: "15:00"
+          start: "14:15"
+          end: "14:30"
         - name: Apéro @polysnack
           start: "15:00"
           end: "16:00"
       image: timeline/presentation.jpg
   timeline_conclusion_text: "Be part <br/> of social <br/> IoT!" # needs a little fiddling with line breaks
 
+projects:
+  title: Projects
+  subtitle: Realized Projects
+  content_items:
+    - title: bETHer Spaces
+      subtitle: tbd
+      image: projects/bether.png
+      description: "With bETHer spaces we aim to provide an easy to use tool for students to find ideal student learning spaces. We use the data provided by Enviro+ sensors to feed an API with environmental information about study spaces. A user can use this data to find a study space that matches their exact environmental preferences. Lastly, our application allows users to review existing spaces and add new spaces to share their favourite spots with other users."
+    - title: Velosafe
+      subtitle: Safe, not just lucky!
+      description: "VeloSafe is an open-source application with the aim of finding the safest route for biking between two points in the city of Zurich. It is based on OpenStreetMap, MapActivity, and AndroidStudio, which grants it a reproducible character."
+      image: projects/velosafe.jpg
+    - title: Bloom Air
+      subtitle: BloomAir
+      description: "A flower blooms the air in a room. A bunch of flowers blooms the air of a neighbourhood"
+      image: projects/bloomair.png
+    - title: HackIOTA
+      subtitle: tbd
+      description: "tbd"
+      image: projects/hackiota.png
+    - title: Crow Relief
+      subtitle: tbd
+      description: "tbd"
+      image: projects/crowdrelief.png
+    - title: GeoHelp
+      subtitle: Help where help is needed.
+      description: "A big part of every event is safety. Organizers of these events go to great lengths to ensure the safety of their guests. Security personnel, emergency tents, and paramedics are a crucial part of the safety measures of every event. But how can someone help you if they don't know you need help? To identify a person who needs help in a crowd of 15'000 people is very difficult."
+      image: projects/geohelp.png
 
-section4:
+
+experts:
   title: Experts you will meet
   subtitle: These experts will provide insights and support for your project.
   description: Don't miss the opportunity to get to know them after their keynotes!
@@ -274,7 +306,31 @@ section4:
       role: ETH
       image: experts/luthe.jpg
 
-section5:
+lecturers:
+  title: Your lecturers
+  subtitle: These are the lecturers from ETH
+  description: ""
+  content_items:
+    - name: Dirk Helbing
+      role: Professor for Computational Social Science
+      image: experts/helbing.jpeg
+      twitter: https://twitter.com/DirkHelbing
+      linkedin: https://ch.linkedin.com/in/dirk-helbing-58b291b1
+    - name: Carina I. Hausladen
+      role: postdoc
+      image: experts/carina.jpeg
+      twitter: https://twitter.com/carinahausladen?lang=en
+      linkedin: https://www.linkedin.com/in/carina-i-hausladen-53457884/
+    - name: Sachit Mahajan
+      role: postdoc
+      image: experts/sachit.jpeg
+      linkedin: https://www.linkedin.com/in/sachit-mahajan-9052b745/
+    - name: Javier Argota Sanchez-Vaquerizo
+      role: PhD
+      image: experts/javier.jpeg
+      linkedin: https://www.linkedin.com/in/javierargota/
+
+faq:
   title: Frequently asked questions
   subtitle: ""
   content_items:
@@ -292,7 +348,7 @@ section5:
       answer: The developer/developers of the product will have all rights and own the IP of the product. However, all code needs to be in public domain (open source) so that it can be evaluated by the judges.
 
 
-section6:
+join_us:
   title: Join us & get started
   text: Sign up and join _ participants!
   signed_up: "40"
@@ -345,7 +401,6 @@ footer:
   moodle_link: https://moodle-app2.let.ethz.ch
   coss_link: https://coss.ethz.ch
   coci_link: https://coss.ethz.ch/research/CoCi.html
-  freifunk_link: https://freifunk-3laendereck.net
   erc_link: https://erc.europa.eu/
   footer_text_1: "This course has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme under grant agreement No. 833168, “CoCi: Co-Evolving City Life”."
   footer_text_2: "Visitors acknowledge that they may be included in audio recordings, photos and video recordings taken during the event or in connection with it, and agree that these may be used without financial compensation or limited in terms of time or location."

@@ -1,13 +1,13 @@
 <!-- About-->
-<section class="page-section" id="section3">
+<section class="page-section" id="timeline">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">{{ section3.title }}</h2>
-            <h3 class="section-subheading text-muted">{{ section3.subtitle }}</h3>
+            <h2 class="section-heading text-uppercase">{{ timeline.title }}</h2>
+            <h3 class="section-subheading text-muted">{{ timeline.subtitle }}</h3>
         </div>
 
         <ul class="timeline">
-            {% for item in section3.content_items %}
+            {% for item in timeline.content_items %}
                 <li {% if loop.index % 2 == 0 %} class="timeline-inverted" {% endif %}>
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/{{ item.image }}" alt="..." /></div>
                     <div class="timeline-panel">
@@ -35,7 +35,7 @@
             
             <li>
                 <div class="timeline-image">
-                    <h4>{{ section3.timeline_conclusion_text }}</h4>
+                    <h4>{{ timeline.timeline_conclusion_text }}</h4>
                 </div>
             </li>
         </ul>
