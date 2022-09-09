@@ -252,9 +252,9 @@ projects:
       subtitle: tbd
       description: "tbd"
       image: projects/hackiota.png
-    - title: Crow Relief
-      subtitle: tbd
-      description: "tbd"
+    - title: CrowdRelief
+      subtitle: Keep calm and stay safe
+      description: "CrowdRelief makes big events safer by preventing and dissolving dangerous crowds. Attendees of an event can download the CrowdRelief-App. It warns users when they are walking towards a dangerous crowd and suggests a different direction to walk to. Organizers of an event get alarmed about dangerous situations. This is made possible through GPS and acceleration data sent from the smartphones that have installed the app."
       image: projects/crowdrelief.png
     - title: GeoHelp
       subtitle: Help where help is needed.
