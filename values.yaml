@@ -246,7 +246,7 @@ projects:
       image: projects/velosafe.jpg
     - title: Bloom Air
       subtitle: BloomAir
-      description: "The purpose of the project is to provide a user-friendly air quality measuring device which provides all necessary information to improve the room climate of its owner. It’s a friendly reminder to regularly open the window to let fresh air in and in case of an emergency it not only alerts the affected people but also the officials who can respond quicker."
+      description: "The purpose of the project is to provide a user-friendly air quality measuring device which provides all necessary information to improve the room climate of its owner. It's a friendly reminder to regularly open the window to let fresh air in and in case of an emergency it not only alerts the affected people but also the officials who can respond quicker."
       image: projects/bloomair.png
     - title: HackIOTA
       subtitle: tbd
